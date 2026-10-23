@@ -34,7 +34,7 @@ function partirLinea(linea: string): string[] {
  * que vienen enteras entre comillas (una sola columna que contiene comas).
  */
 export function leerCsv(ruta: string): Record<string, string>[] {
-  const texto = readFileSync(ruta, 'utf8').replace(/^﻿/, '')
+  const texto = readFileSync(ruta, 'utf8').replace(/^\uFEFF/, '')
   const lineas = texto.split(/\r?\n/).filter((l) => l.length > 0)
   const cabecera = partirLinea(lineas[0])
   const filas: Record<string, string>[] = []

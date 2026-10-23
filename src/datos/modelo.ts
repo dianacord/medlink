@@ -102,6 +102,17 @@ export const citasDe = (e: Estado, pacienteId: string) =>
 export const eventosDeCita = (e: Estado, citaId: string) =>
   e.eventosCita.filter((ev) => ev.citaId === citaId).sort((a, b) => a.fecha.localeCompare(b.fecha))
 
+export type EstadoCita = 'propuesta' | 'aceptada' | 'cambio_solicitado' | 'realizada'
+
+export function estadoCita(e: Estado, citaId: string): EstadoCita {
+  const eventos = eventosDeCita(e, citaId)
+  if (eventos.some((ev) => ev.tipo === 'resultado')) return 'realizada'
+  const ultimo = eventos.at(-1)
+  return ultimo ? (ultimo.tipo as Exclude<EstadoCita, 'propuesta' | 'realizada'>) : 'propuesta'
+}
+
+export const avisosPendientes = (e: Estado) => e.avisos.filter((a) => estadoAviso(e, a.id) === 'pendiente')
+
 // ---------- Recalcular avisos ----------
 
 /** Recalcula la prioridad del seguimiento del paciente y añade una actualización si cambia. */
