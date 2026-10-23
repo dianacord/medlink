@@ -1,0 +1,23 @@
+{
+  "periodo": {
+    "desde": "2025-01-01",
+    "hasta": "2025-06-30",
+    "meses": 6
+  },
+  "minutosPorConsulta": 20,
+  "especialidad": "Digestivo",
+  "digestivo": {
+    "revisionesTotales": 11953,
+    "revisionesRealizadas": 8303,
+    "revisionesNoRealizadas": 2511,
+    "demoraMedianaPrimeraDias": 45,
+    "derivacionesPendientes": 229
+  },
+  "hospital": {
+    "revisionesTotales": 109307,
+    "revisionesRealizadas": 72202,
+    "revisionesNoRealizadas": 26584,
+    "demoraMedianaPrimeraDias": 54,
+    "derivacionesPendientes": 2216
+  }
+}

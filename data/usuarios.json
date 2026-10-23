@@ -1,0 +1,34 @@
+[
+  {
+    "id": "u-medico",
+    "email": "medico@demo.es",
+    "password": "demo1234",
+    "rol": "medico",
+    "nombre": "Dra. Elena Navarro",
+    "agendaId": "AG0043"
+  },
+  {
+    "id": "u-ana",
+    "email": "paciente@demo.es",
+    "password": "demo1234",
+    "rol": "paciente",
+    "nombre": "Ana Ruiz",
+    "pacienteId": "P0163423"
+  },
+  {
+    "id": "u-javier",
+    "email": "javier@demo.es",
+    "password": "demo1234",
+    "rol": "paciente",
+    "nombre": "Javier Moreno",
+    "pacienteId": "P0114514"
+  },
+  {
+    "id": "u-antonio",
+    "email": "antonio@demo.es",
+    "password": "demo1234",
+    "rol": "paciente",
+    "nombre": "Antonio Fernández",
+    "pacienteId": "P0041568"
+  }
+]

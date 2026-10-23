@@ -1,0 +1,4292 @@
+{
+  "seguimientos": [
+    {
+      "pacienteId": "P0114514",
+      "inicioDiasAtras": 185
+    },
+    {
+      "pacienteId": "P0058433",
+      "inicioDiasAtras": 187
+    },
+    {
+      "pacienteId": "P0116240",
+      "inicioDiasAtras": 188
+    },
+    {
+      "pacienteId": "P0163423",
+      "inicioDiasAtras": 182
+    },
+    {
+      "pacienteId": "P0105712",
+      "inicioDiasAtras": 187
+    },
+    {
+      "pacienteId": "P0159396",
+      "inicioDiasAtras": 186
+    },
+    {
+      "pacienteId": "P0091356",
+      "inicioDiasAtras": 186
+    },
+    {
+      "pacienteId": "P0021303",
+      "inicioDiasAtras": 193
+    },
+    {
+      "pacienteId": "P0078380",
+      "inicioDiasAtras": 185
+    },
+    {
+      "pacienteId": "P0041568",
+      "inicioDiasAtras": 187
+    },
+    {
+      "pacienteId": "P0149508",
+      "inicioDiasAtras": 193
+    },
+    {
+      "pacienteId": "P0090075",
+      "inicioDiasAtras": 191
+    },
+    {
+      "pacienteId": "P0017909",
+      "inicioDiasAtras": 191
+    },
+    {
+      "pacienteId": "P0169907",
+      "inicioDiasAtras": 190
+    },
+    {
+      "pacienteId": "P0118727",
+      "inicioDiasAtras": 194
+    }
+  ],
+  "mediciones": [
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "calprotectina",
+      "valor": 85,
+      "diasAtras": 171
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "calprotectina",
+      "valor": 90,
+      "diasAtras": 87
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "calprotectina",
+      "valor": 620,
+      "diasAtras": 3
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "pcr",
+      "valor": 2,
+      "diasAtras": 171
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "pcr",
+      "valor": 3,
+      "diasAtras": 87
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "pcr",
+      "valor": 18,
+      "diasAtras": 3
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "hemoglobina",
+      "valor": 14.6,
+      "diasAtras": 171
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "hemoglobina",
+      "valor": 14.8,
+      "diasAtras": 87
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "hemoglobina",
+      "valor": 13.9,
+      "diasAtras": 3
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "albumina",
+      "valor": 41,
+      "diasAtras": 171
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "albumina",
+      "valor": 43,
+      "diasAtras": 87
+    },
+    {
+      "pacienteId": "P0114514",
+      "parametroId": "albumina",
+      "valor": 40,
+      "diasAtras": 3
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "calprotectina",
+      "valor": 80,
+      "diasAtras": 180
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "calprotectina",
+      "valor": 120,
+      "diasAtras": 96
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "calprotectina",
+      "valor": 145,
+      "diasAtras": 12
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "pcr",
+      "valor": 2,
+      "diasAtras": 180
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "pcr",
+      "valor": 3,
+      "diasAtras": 96
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "pcr",
+      "valor": 3,
+      "diasAtras": 12
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "hemoglobina",
+      "valor": 12.8,
+      "diasAtras": 180
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "hemoglobina",
+      "valor": 12.9,
+      "diasAtras": 96
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "hemoglobina",
+      "valor": 12.8,
+      "diasAtras": 12
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "albumina",
+      "valor": 40,
+      "diasAtras": 180
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "albumina",
+      "valor": 41,
+      "diasAtras": 96
+    },
+    {
+      "pacienteId": "P0058433",
+      "parametroId": "albumina",
+      "valor": 40,
+      "diasAtras": 12
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "calprotectina",
+      "valor": 70,
+      "diasAtras": 208
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "calprotectina",
+      "valor": 90,
+      "diasAtras": 124
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "calprotectina",
+      "valor": 80,
+      "diasAtras": 40
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "pcr",
+      "valor": 1,
+      "diasAtras": 208
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "pcr",
+      "valor": 1.8,
+      "diasAtras": 124
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "pcr",
+      "valor": 1.4,
+      "diasAtras": 40
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "hemoglobina",
+      "valor": 12.9,
+      "diasAtras": 208
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "hemoglobina",
+      "valor": 12.5,
+      "diasAtras": 124
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "hemoglobina",
+      "valor": 12.7,
+      "diasAtras": 40
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "albumina",
+      "valor": 42,
+      "diasAtras": 208
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "albumina",
+      "valor": 41,
+      "diasAtras": 124
+    },
+    {
+      "pacienteId": "P0116240",
+      "parametroId": "albumina",
+      "valor": 42,
+      "diasAtras": 40
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "calprotectina",
+      "valor": 64,
+      "diasAtras": 188
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "calprotectina",
+      "valor": 92,
+      "diasAtras": 104
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "calprotectina",
+      "valor": 78,
+      "diasAtras": 20
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "pcr",
+      "valor": 1.1,
+      "diasAtras": 188
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "pcr",
+      "valor": 1.6,
+      "diasAtras": 104
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "pcr",
+      "valor": 1.4,
+      "diasAtras": 20
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "hemoglobina",
+      "valor": 14,
+      "diasAtras": 188
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "hemoglobina",
+      "valor": 13.7,
+      "diasAtras": 104
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "hemoglobina",
+      "valor": 13.8,
+      "diasAtras": 20
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "albumina",
+      "valor": 41,
+      "diasAtras": 188
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "albumina",
+      "valor": 39,
+      "diasAtras": 104
+    },
+    {
+      "pacienteId": "P0163423",
+      "parametroId": "albumina",
+      "valor": 40,
+      "diasAtras": 20
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "calprotectina",
+      "valor": 97,
+      "diasAtras": 189
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "calprotectina",
+      "valor": 117,
+      "diasAtras": 105
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "calprotectina",
+      "valor": 107,
+      "diasAtras": 21
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "pcr",
+      "valor": 2.2,
+      "diasAtras": 189
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "pcr",
+      "valor": 2.8,
+      "diasAtras": 105
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "pcr",
+      "valor": 2.5,
+      "diasAtras": 21
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "hemoglobina",
+      "valor": 14.3,
+      "diasAtras": 189
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "hemoglobina",
+      "valor": 14,
+      "diasAtras": 105
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "hemoglobina",
+      "valor": 14.2,
+      "diasAtras": 21
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "albumina",
+      "valor": 42,
+      "diasAtras": 189
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "albumina",
+      "valor": 40,
+      "diasAtras": 105
+    },
+    {
+      "pacienteId": "P0105712",
+      "parametroId": "albumina",
+      "valor": 41,
+      "diasAtras": 21
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "calprotectina",
+      "valor": 86,
+      "diasAtras": 175
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "calprotectina",
+      "valor": 113,
+      "diasAtras": 91
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "calprotectina",
+      "valor": 100,
+      "diasAtras": 7
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "pcr",
+      "valor": 1.8,
+      "diasAtras": 175
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "pcr",
+      "valor": 2.4,
+      "diasAtras": 91
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "pcr",
+      "valor": 2.1,
+      "diasAtras": 7
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "hemoglobina",
+      "valor": 13.8,
+      "diasAtras": 175
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "hemoglobina",
+      "valor": 13.3,
+      "diasAtras": 91
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "hemoglobina",
+      "valor": 13.6,
+      "diasAtras": 7
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "albumina",
+      "valor": 39,
+      "diasAtras": 175
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "albumina",
+      "valor": 37,
+      "diasAtras": 91
+    },
+    {
+      "pacienteId": "P0159396",
+      "parametroId": "albumina",
+      "valor": 38,
+      "diasAtras": 7
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "calprotectina",
+      "valor": 76,
+      "diasAtras": 183
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "calprotectina",
+      "valor": 104,
+      "diasAtras": 99
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "calprotectina",
+      "valor": 90,
+      "diasAtras": 15
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "pcr",
+      "valor": 2.7,
+      "diasAtras": 183
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "pcr",
+      "valor": 2.9,
+      "diasAtras": 99
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "pcr",
+      "valor": 2.8,
+      "diasAtras": 15
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "hemoglobina",
+      "valor": 13.5,
+      "diasAtras": 183
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "hemoglobina",
+      "valor": 13.1,
+      "diasAtras": 99
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "hemoglobina",
+      "valor": 13.3,
+      "diasAtras": 15
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "albumina",
+      "valor": 44,
+      "diasAtras": 183
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "albumina",
+      "valor": 42,
+      "diasAtras": 99
+    },
+    {
+      "pacienteId": "P0091356",
+      "parametroId": "albumina",
+      "valor": 43,
+      "diasAtras": 15
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "calprotectina",
+      "valor": 43,
+      "diasAtras": 199
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "calprotectina",
+      "valor": 55,
+      "diasAtras": 115
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "calprotectina",
+      "valor": 49,
+      "diasAtras": 31
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "pcr",
+      "valor": 2.4,
+      "diasAtras": 199
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "pcr",
+      "valor": 3.1,
+      "diasAtras": 115
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "pcr",
+      "valor": 2.8,
+      "diasAtras": 31
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "hemoglobina",
+      "valor": 13.6,
+      "diasAtras": 199
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "hemoglobina",
+      "valor": 13.2,
+      "diasAtras": 115
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "hemoglobina",
+      "valor": 13.4,
+      "diasAtras": 31
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "albumina",
+      "valor": 39,
+      "diasAtras": 199
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "albumina",
+      "valor": 38,
+      "diasAtras": 115
+    },
+    {
+      "pacienteId": "P0021303",
+      "parametroId": "albumina",
+      "valor": 39,
+      "diasAtras": 31
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "calprotectina",
+      "valor": 93,
+      "diasAtras": 195
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "calprotectina",
+      "valor": 120,
+      "diasAtras": 111
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "calprotectina",
+      "valor": 107,
+      "diasAtras": 27
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "pcr",
+      "valor": 0.5,
+      "diasAtras": 195
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "pcr",
+      "valor": 1,
+      "diasAtras": 111
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "pcr",
+      "valor": 0.8,
+      "diasAtras": 27
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "hemoglobina",
+      "valor": 14.9,
+      "diasAtras": 195
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "hemoglobina",
+      "valor": 14.5,
+      "diasAtras": 111
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "hemoglobina",
+      "valor": 14.7,
+      "diasAtras": 27
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "albumina",
+      "valor": 42,
+      "diasAtras": 195
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "albumina",
+      "valor": 41,
+      "diasAtras": 111
+    },
+    {
+      "pacienteId": "P0078380",
+      "parametroId": "albumina",
+      "valor": 42,
+      "diasAtras": 27
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "calprotectina",
+      "valor": 62,
+      "diasAtras": 203
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "calprotectina",
+      "valor": 77,
+      "diasAtras": 119
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "calprotectina",
+      "valor": 70,
+      "diasAtras": 35
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "pcr",
+      "valor": 2.1,
+      "diasAtras": 203
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "pcr",
+      "valor": 2.3,
+      "diasAtras": 119
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "pcr",
+      "valor": 2.2,
+      "diasAtras": 35
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "hemoglobina",
+      "valor": 14.2,
+      "diasAtras": 203
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "hemoglobina",
+      "valor": 14,
+      "diasAtras": 119
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "hemoglobina",
+      "valor": 14.1,
+      "diasAtras": 35
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "albumina",
+      "valor": 39,
+      "diasAtras": 203
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "albumina",
+      "valor": 37,
+      "diasAtras": 119
+    },
+    {
+      "pacienteId": "P0041568",
+      "parametroId": "albumina",
+      "valor": 38,
+      "diasAtras": 35
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "calprotectina",
+      "valor": 61,
+      "diasAtras": 195
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "calprotectina",
+      "valor": 84,
+      "diasAtras": 111
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "calprotectina",
+      "valor": 73,
+      "diasAtras": 27
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "pcr",
+      "valor": 2.2,
+      "diasAtras": 195
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "pcr",
+      "valor": 2.5,
+      "diasAtras": 111
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "pcr",
+      "valor": 2.4,
+      "diasAtras": 27
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "hemoglobina",
+      "valor": 14.3,
+      "diasAtras": 195
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "hemoglobina",
+      "valor": 14.1,
+      "diasAtras": 111
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "hemoglobina",
+      "valor": 14.2,
+      "diasAtras": 27
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "albumina",
+      "valor": 38,
+      "diasAtras": 195
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "albumina",
+      "valor": 36,
+      "diasAtras": 111
+    },
+    {
+      "pacienteId": "P0149508",
+      "parametroId": "albumina",
+      "valor": 37,
+      "diasAtras": 27
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "calprotectina",
+      "valor": 100,
+      "diasAtras": 186
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "calprotectina",
+      "valor": 123,
+      "diasAtras": 102
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "calprotectina",
+      "valor": 112,
+      "diasAtras": 18
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "pcr",
+      "valor": 2.4,
+      "diasAtras": 186
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "pcr",
+      "valor": 2.7,
+      "diasAtras": 102
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "pcr",
+      "valor": 2.5,
+      "diasAtras": 18
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "hemoglobina",
+      "valor": 13.3,
+      "diasAtras": 186
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "hemoglobina",
+      "valor": 12.7,
+      "diasAtras": 102
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "hemoglobina",
+      "valor": 13,
+      "diasAtras": 18
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "albumina",
+      "valor": 41,
+      "diasAtras": 186
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "albumina",
+      "valor": 39,
+      "diasAtras": 102
+    },
+    {
+      "pacienteId": "P0090075",
+      "parametroId": "albumina",
+      "valor": 40,
+      "diasAtras": 18
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "calprotectina",
+      "valor": 51,
+      "diasAtras": 173
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "calprotectina",
+      "valor": 77,
+      "diasAtras": 89
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "calprotectina",
+      "valor": 64,
+      "diasAtras": 5
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "pcr",
+      "valor": 2.3,
+      "diasAtras": 173
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "pcr",
+      "valor": 3.2,
+      "diasAtras": 89
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "pcr",
+      "valor": 2.8,
+      "diasAtras": 5
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "hemoglobina",
+      "valor": 13,
+      "diasAtras": 173
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "hemoglobina",
+      "valor": 12.5,
+      "diasAtras": 89
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "hemoglobina",
+      "valor": 12.8,
+      "diasAtras": 5
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "albumina",
+      "valor": 38,
+      "diasAtras": 173
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "albumina",
+      "valor": 37,
+      "diasAtras": 89
+    },
+    {
+      "pacienteId": "P0017909",
+      "parametroId": "albumina",
+      "valor": 38,
+      "diasAtras": 5
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "calprotectina",
+      "valor": 98,
+      "diasAtras": 204
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "calprotectina",
+      "valor": 118,
+      "diasAtras": 120
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "calprotectina",
+      "valor": 108,
+      "diasAtras": 36
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "pcr",
+      "valor": 1.5,
+      "diasAtras": 204
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "pcr",
+      "valor": 2.4,
+      "diasAtras": 120
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "pcr",
+      "valor": 1.9,
+      "diasAtras": 36
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "hemoglobina",
+      "valor": 14.3,
+      "diasAtras": 204
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "hemoglobina",
+      "valor": 14.1,
+      "diasAtras": 120
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "hemoglobina",
+      "valor": 14.2,
+      "diasAtras": 36
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "albumina",
+      "valor": 39,
+      "diasAtras": 204
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "albumina",
+      "valor": 37,
+      "diasAtras": 120
+    },
+    {
+      "pacienteId": "P0169907",
+      "parametroId": "albumina",
+      "valor": 38,
+      "diasAtras": 36
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "calprotectina",
+      "valor": 35,
+      "diasAtras": 180
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "calprotectina",
+      "valor": 63,
+      "diasAtras": 96
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "calprotectina",
+      "valor": 49,
+      "diasAtras": 12
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "pcr",
+      "valor": 2.5,
+      "diasAtras": 180
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "pcr",
+      "valor": 3.2,
+      "diasAtras": 96
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "pcr",
+      "valor": 2.9,
+      "diasAtras": 12
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "hemoglobina",
+      "valor": 15.1,
+      "diasAtras": 180
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "hemoglobina",
+      "valor": 14.7,
+      "diasAtras": 96
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "hemoglobina",
+      "valor": 14.9,
+      "diasAtras": 12
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "albumina",
+      "valor": 44,
+      "diasAtras": 180
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "albumina",
+      "valor": 43,
+      "diasAtras": 96
+    },
+    {
+      "pacienteId": "P0118727",
+      "parametroId": "albumina",
+      "valor": 44,
+      "diasAtras": 12
+    }
+  ],
+  "respuestas": [
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 184,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 170,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 156,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 142,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 128,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 114,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 100,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 86,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 72,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 58,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 44,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 30,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 16,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0114514",
+      "diasAtras": 2,
+      "respuestas": {
+        "deposiciones": 6,
+        "sangre": true,
+        "urgencia": 7,
+        "dolor": 5,
+        "cansancio": 5,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 186,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 172,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 158,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 144,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 130,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 116,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 102,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 88,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 74,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 60,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 46,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 32,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 18,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0058433",
+      "diasAtras": 4,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 6,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      },
+      "textoLibre": "Últimamente tengo más prisa por ir al baño, sobre todo por las mañanas."
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 187,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 0,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 173,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 159,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 145,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 131,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 117,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 103,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 0,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 89,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 0,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 75,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 0,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 61,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0116240",
+      "diasAtras": 47,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 181,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 167,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 153,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 1,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 139,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 125,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 111,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 97,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 83,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 69,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 55,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 41,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 27,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 1,
+        "cansancio": 1,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0163423",
+      "diasAtras": 13,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 186,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 172,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 158,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 144,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 130,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 116,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 102,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 88,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 3,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 74,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 60,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 46,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 32,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 18,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0105712",
+      "diasAtras": 4,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 185,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 171,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 157,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 143,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 129,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 115,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 101,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 87,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 3,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 73,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 59,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 45,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 31,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 1,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 17,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0159396",
+      "diasAtras": 3,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 185,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 171,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 157,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 143,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 129,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 115,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 101,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 87,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 73,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 59,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 45,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 31,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 17,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0091356",
+      "diasAtras": 3,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 192,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 178,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 164,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 150,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 136,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 3,
+        "cansancio": 4,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 122,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 4,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 108,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 94,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 80,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 66,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 52,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 38,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 24,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 3,
+        "cansancio": 4,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0021303",
+      "diasAtras": 10,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "embarazo": false,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 184,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 170,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 156,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 142,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 128,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 114,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 100,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 86,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 72,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 58,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 44,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 30,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 16,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0078380",
+      "diasAtras": 2,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 186,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 172,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 158,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 144,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 130,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 116,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 102,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 88,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 74,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 60,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 3,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 46,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 32,
+      "respuestas": {
+        "deposiciones": 3,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 18,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0041568",
+      "diasAtras": 4,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 192,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 178,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 164,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 0,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 150,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 136,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 122,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 108,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 94,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 80,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 0,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 66,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 52,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 38,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 24,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0149508",
+      "diasAtras": 10,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 190,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 0,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 176,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 162,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 148,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 134,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 120,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 106,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 0,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 92,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 78,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 0,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 64,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 50,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 36,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 22,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0090075",
+      "diasAtras": 8,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 0,
+        "cansancio": 2,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 190,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 176,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 162,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 148,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 134,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 120,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 106,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 92,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 78,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 64,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 50,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 3,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 36,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 3,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 22,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 3,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0017909",
+      "diasAtras": 8,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 189,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 175,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 161,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 147,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 133,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 119,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 105,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 91,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 77,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 63,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 49,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 35,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 21,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 1,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0169907",
+      "diasAtras": 7,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 0,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 193,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 179,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 165,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 151,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 137,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 123,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 109,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 95,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 81,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 67,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 53,
+      "respuestas": {
+        "deposiciones": 1,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 1,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 39,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 25,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 2,
+        "dolor": 1,
+        "cansancio": 4,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    },
+    {
+      "pacienteId": "P0118727",
+      "diasAtras": 11,
+      "respuestas": {
+        "deposiciones": 2,
+        "sangre": false,
+        "urgencia": 3,
+        "dolor": 2,
+        "cansancio": 3,
+        "medicacion": true,
+        "alarma_brote": false,
+        "alarma_abdomen": false,
+        "alarma_sangrado": false
+      }
+    }
+  ]
+}

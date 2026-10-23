@@ -1,0 +1,172 @@
+[
+  {
+    "id": "P0114514",
+    "nhc": "7836366",
+    "nombre": "Javier",
+    "apellidos": "Moreno Gil",
+    "edad": 39,
+    "sexo": "M",
+    "preferenciaContacto": "APP",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0058433",
+    "nhc": "4730927",
+    "nombre": "Carmen",
+    "apellidos": "López Sanz",
+    "edad": 67,
+    "sexo": "F",
+    "preferenciaContacto": "EMAIL",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0116240",
+    "nhc": "3504560",
+    "nombre": "Lucía",
+    "apellidos": "García Prieto",
+    "edad": 37,
+    "sexo": "F",
+    "preferenciaContacto": "APP",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0163423",
+    "nhc": "8146737",
+    "nombre": "Ana",
+    "apellidos": "Ruiz Herrero",
+    "edad": 51,
+    "sexo": "F",
+    "preferenciaContacto": "APP",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0105712",
+    "nhc": "1133328",
+    "nombre": "Daniel",
+    "apellidos": "Pérez Ortega",
+    "edad": 28,
+    "sexo": "M",
+    "preferenciaContacto": "EMAIL",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0159396",
+    "nhc": "3256924",
+    "nombre": "Marta",
+    "apellidos": "Serrano Vidal",
+    "edad": 32,
+    "sexo": "F",
+    "preferenciaContacto": "APP",
+    "accesibilidad": "AUDITIVA"
+  },
+  {
+    "id": "P0091356",
+    "nhc": "4448164",
+    "nombre": "Laura",
+    "apellidos": "Vega Romero",
+    "edad": 37,
+    "sexo": "F",
+    "preferenciaContacto": "SMS",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0021303",
+    "nhc": "7698457",
+    "nombre": "Isabel",
+    "apellidos": "Castro Molina",
+    "edad": 42,
+    "sexo": "F",
+    "preferenciaContacto": "SMS",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0078380",
+    "nhc": "9691220",
+    "nombre": "Miguel",
+    "apellidos": "Torres Blanco",
+    "edad": 51,
+    "sexo": "M",
+    "preferenciaContacto": "SMS",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0041568",
+    "nhc": "6176992",
+    "nombre": "Antonio",
+    "apellidos": "Fernández Rubio",
+    "edad": 52,
+    "sexo": "M",
+    "preferenciaContacto": "APP",
+    "accesibilidad": "VISUAL"
+  },
+  {
+    "id": "P0149508",
+    "nhc": "5953852",
+    "nombre": "José",
+    "apellidos": "Ramos Iglesias",
+    "edad": 65,
+    "sexo": "M",
+    "preferenciaContacto": "LLAMADA",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0090075",
+    "nhc": "3303925",
+    "nombre": "Pilar",
+    "apellidos": "Delgado Núñez",
+    "edad": 67,
+    "sexo": "F",
+    "preferenciaContacto": "EMAIL",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0017909",
+    "nhc": "7821371",
+    "nombre": "Rosa",
+    "apellidos": "Martín Cabrera",
+    "edad": 67,
+    "sexo": "F",
+    "preferenciaContacto": "LLAMADA",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0169907",
+    "nhc": "5493533",
+    "nombre": "Francisco",
+    "apellidos": "Gómez Pastor",
+    "edad": 67,
+    "sexo": "M",
+    "preferenciaContacto": "EMAIL",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0118727",
+    "nhc": "5199113",
+    "nombre": "Manuel",
+    "apellidos": "Hidalgo Reyes",
+    "edad": 67,
+    "sexo": "M",
+    "preferenciaContacto": "LLAMADA",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0000339",
+    "nhc": "3684541",
+    "nombre": "Sofía",
+    "apellidos": "Benítez Lara",
+    "edad": 32,
+    "sexo": "F",
+    "preferenciaContacto": "EMAIL",
+    "accesibilidad": "NINGUNA"
+  },
+  {
+    "id": "P0000004",
+    "nhc": "1031676",
+    "nombre": "Alberto",
+    "apellidos": "Navas Soto",
+    "edad": 50,
+    "sexo": "M",
+    "preferenciaContacto": "APP",
+    "accesibilidad": "NINGUNA"
+  }
+]
