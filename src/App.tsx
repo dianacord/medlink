@@ -9,6 +9,11 @@ import DetalleAviso from './paginas/medico/DetalleAviso'
 import EditarSeguimiento from './paginas/medico/EditarSeguimiento'
 import Ficha from './paginas/medico/Ficha'
 import ResultadoLlamada from './paginas/medico/ResultadoLlamada'
+import Citas from './paginas/paciente/Citas'
+import Encuesta from './paginas/paciente/Encuesta'
+import Inicio from './paginas/paciente/Inicio'
+import PedirRevision from './paginas/paciente/PedirRevision'
+import Urgencias from './paginas/paciente/Urgencias'
 
 export default function App() {
   return (
@@ -42,12 +47,21 @@ export default function App() {
             </RutaProtegida>
           }
         >
-          <Route index element={<EnConstruccion titulo="Mi seguimiento" />} />
-          <Route path="encuesta" element={<EnConstruccion titulo="Encuesta" />} />
-          <Route path="citas" element={<EnConstruccion titulo="Mis citas" />} />
+          <Route index element={<Inicio />} />
+          <Route path="encuesta" element={<Encuesta />} />
+          <Route path="citas" element={<Citas />} />
           <Route path="analitica" element={<EnConstruccion titulo="Subir analítica" />} />
-          <Route path="revision" element={<EnConstruccion titulo="Pedir revisión" />} />
+          <Route path="revision" element={<PedirRevision />} />
         </Route>
+
+        <Route
+          path="/paciente/urgencias"
+          element={
+            <RutaProtegida rol="paciente">
+              <Urgencias />
+            </RutaProtegida>
+          }
+        />
 
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>

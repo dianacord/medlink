@@ -8,6 +8,7 @@ import {
   avisoAbierto,
   decidir,
   estadoAviso,
+  estadoCita,
   paciente as buscarPaciente,
   seguimientoActual,
   ultimaActualizacion,
@@ -20,6 +21,14 @@ import { chipsDe } from '../../logica/puntuacion'
 import type { Aviso } from '../../types'
 
 type Vista = 'avisos' | 'citas' | 'verde'
+/** Lo que ha contestado el paciente a la cita propuesta. */
+const RESPUESTA_CITA = {
+  propuesta: { texto: 'Sin respuesta', clases: 'bg-gris-claro text-gris' },
+  aceptada: { texto: 'Aceptada', clases: 'bg-baja-suave text-baja' },
+  cambio_solicitado: { texto: 'Pide otro día', clases: 'bg-media-suave text-media' },
+  realizada: { texto: 'Realizada', clases: 'bg-gris-claro text-gris' },
+}
+
 const CHIPS_VISIBLES = 3
 
 function avisosEn(e: Estado, estados: string[]) {
@@ -37,6 +46,8 @@ function TarjetaAviso({ aviso, conAcciones }: { aviso: Aviso; conAcciones: boole
   const seg = seguimientoActual(estado, p.id)
   const chips = chipsDe(ultima.motivos)
   const situacion = estadoAviso(estado, aviso.id)
+  const cita = estado.citas.filter((c) => c.avisoId === aviso.id).at(-1)
+  const respuesta = cita && RESPUESTA_CITA[estadoCita(estado, cita.id)]
 
   const archivar = () => {
     actualizar((e) => decidir(e, aviso.id, 'archivar'))
@@ -53,6 +64,9 @@ function TarjetaAviso({ aviso, conAcciones }: { aviso: Aviso; conAcciones: boole
               <CalendarCheck className="size-3.5" />
               {situacion === 'cita_telefonica' ? 'Llamada programada' : 'Cita presencial programada'}
             </span>
+          )}
+          {situacion !== 'pendiente' && respuesta && (
+            <span className={`rounded-full px-2.5 py-1 text-xs font-bold ${respuesta.clases}`}>{respuesta.texto}</span>
           )}
           <span className="ml-auto text-xs text-gris">{haceTiempo(ultima.fecha)}</span>
         </div>
