@@ -3,6 +3,12 @@ import { LayoutMedico, LayoutPaciente, RutaProtegida } from './componentes/Layou
 import Bienvenida from './paginas/comun/Bienvenida'
 import Login from './paginas/comun/Login'
 import EnConstruccion from './paginas/comun/EnConstruccion'
+import Bandeja from './paginas/medico/Bandeja'
+import Buscar from './paginas/medico/Buscar'
+import DetalleAviso from './paginas/medico/DetalleAviso'
+import EditarSeguimiento from './paginas/medico/EditarSeguimiento'
+import Ficha from './paginas/medico/Ficha'
+import ResultadoLlamada from './paginas/medico/ResultadoLlamada'
 
 export default function App() {
   return (
@@ -19,12 +25,12 @@ export default function App() {
             </RutaProtegida>
           }
         >
-          <Route index element={<EnConstruccion titulo="Avisos" />} />
-          <Route path="aviso/:id" element={<EnConstruccion titulo="Detalle del aviso" />} />
-          <Route path="buscar" element={<EnConstruccion titulo="Pacientes" />} />
-          <Route path="paciente/:id" element={<EnConstruccion titulo="Ficha del paciente" />} />
-          <Route path="paciente/:id/seguimiento" element={<EnConstruccion titulo="Seguimiento" />} />
-          <Route path="cita/:id/resultado" element={<EnConstruccion titulo="Resultado de la llamada" />} />
+          <Route index element={<Bandeja />} />
+          <Route path="aviso/:id" element={<DetalleAviso />} />
+          <Route path="buscar" element={<Buscar />} />
+          <Route path="paciente/:id" element={<Ficha />} />
+          <Route path="paciente/:id/seguimiento" element={<EditarSeguimiento />} />
+          <Route path="cita/:id/resultado" element={<ResultadoLlamada />} />
           <Route path="impacto" element={<EnConstruccion titulo="Impacto" />} />
         </Route>
 
