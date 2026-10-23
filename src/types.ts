@@ -66,6 +66,10 @@ export type TipoPregunta = 'escala' | 'si_no' | 'numero'
 export interface Pregunta {
   id: string
   texto: string
+  /** Nombre corto para el médico. En sí/no describe la respuesta que alerta ("Sangre en heces"). */
+  etiqueta: string
+  /** Solo numero: unidad que se muestra tras el valor ("/día"). */
+  unidad?: string
   /** Aclaración corta bajo la pregunta (por ejemplo, qué significa 0 y 10). */
   ayuda?: string
   tipo: TipoPregunta
@@ -118,7 +122,8 @@ export interface SeguimientoVersion {
 
 // ---------- Datos que llegan ----------
 
-export type OrigenDato = 'laboratorio_hospital' | 'pdf_paciente' | 'historico' | 'demo'
+/** paciente = respondido o escrito por el paciente en la app. */
+export type OrigenDato = 'laboratorio_hospital' | 'pdf_paciente' | 'paciente' | 'historico' | 'demo'
 
 export interface Medicion {
   id: string
@@ -202,10 +207,15 @@ export interface ActualizacionAviso {
   fecha: string
   puntuacion: number
   prioridad: Prioridad
+  /** Resumen para la bandeja, por ejemplo "Alteración de calprotectina fecal". */
+  titulo: string
   motivos: Motivo[]
   /** Qué provocó el recálculo, en texto legible. */
   causa: string
 }
+
+/** Estado derivado de un aviso: pendiente hasta que el médico decide; vuelve a pendiente si llegan datos nuevos tras una cita. */
+export type EstadoAviso = 'pendiente' | 'cita_telefonica' | 'cita_presencial' | 'archivado'
 
 export type TipoDecision = 'archivar' | 'cita_telefonica' | 'cita_presencial'
 

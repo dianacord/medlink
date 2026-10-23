@@ -56,6 +56,8 @@ export const PLANTILLA_COLITIS: Plantilla = {
   preguntas: [
     {
       id: 'deposiciones',
+      etiqueta: 'Deposiciones',
+      unidad: '/día',
       texto: '¿Cuántas veces vas al baño al día (deposiciones)?',
       ayuda: 'Piensa en un día normal de esta semana.',
       tipo: 'numero',
@@ -65,6 +67,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'sangre',
+      etiqueta: 'Sangre en heces',
       texto: '¿Has visto sangre en las heces?',
       tipo: 'si_no',
       respuestaAlerta: true,
@@ -72,6 +75,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'urgencia',
+      etiqueta: 'Urgencia',
       texto: '¿Cuánta prisa sientes por llegar al baño?',
       ayuda: '0 = ninguna, 10 = no me da tiempo a llegar',
       tipo: 'escala',
@@ -81,6 +85,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'dolor',
+      etiqueta: 'Dolor abdominal',
       texto: '¿Cuánto dolor de barriga tienes?',
       ayuda: '0 = nada, 10 = el peor dolor',
       tipo: 'escala',
@@ -90,6 +95,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'cansancio',
+      etiqueta: 'Cansancio',
       texto: '¿Cuánto cansancio tienes?',
       ayuda: '0 = nada, 10 = agotamiento total',
       tipo: 'escala',
@@ -99,6 +105,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'medicacion',
+      etiqueta: 'No toma la medicación todos los días',
       texto: '¿Has tomado tu medicación todos los días?',
       tipo: 'si_no',
       respuestaAlerta: false,
@@ -106,6 +113,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'embarazo',
+      etiqueta: 'Embarazo o búsqueda de embarazo',
       texto: '¿Estás embarazada o buscando un embarazo?',
       tipo: 'si_no',
       respuestaAlerta: true,
@@ -115,6 +123,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'alarma_brote',
+      etiqueta: 'Brote grave',
       texto: '¿Vas al baño 6 o más veces al día con sangre y tienes fiebre, mareo o el corazón acelerado?',
       tipo: 'si_no',
       respuestaAlerta: true,
@@ -122,6 +131,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'alarma_abdomen',
+      etiqueta: 'Dolor abdominal muy fuerte con barriga dura',
       texto: '¿Tienes un dolor de barriga muy fuerte, con la barriga hinchada y dura?',
       tipo: 'si_no',
       respuestaAlerta: true,
@@ -129,6 +139,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'alarma_sangrado',
+      etiqueta: 'Sangrado abundante o mareo',
       texto: '¿Estás sangrando mucho (con coágulos) o te mareas al ponerte de pie?',
       tipo: 'si_no',
       respuestaAlerta: true,
