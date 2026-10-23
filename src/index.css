@@ -35,3 +35,28 @@
     @apply outline-2 outline-offset-2 outline-primario;
   }
 }
+
+/* Control deslizante (Impacto): pista azul clara y parte recorrida en azul */
+.deslizador {
+  appearance: none;
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: linear-gradient(to right, var(--color-primario) var(--progreso), var(--color-primario-suave) var(--progreso));
+  cursor: pointer;
+}
+.deslizador::-webkit-slider-thumb {
+  appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  background: white;
+  border: 3px solid var(--color-primario);
+  box-shadow: 0 2px 6px rgb(19 33 60 / 0.15);
+}
+.deslizador::-moz-range-thumb {
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 9999px;
+  background: white;
+  border: 3px solid var(--color-primario);
+}

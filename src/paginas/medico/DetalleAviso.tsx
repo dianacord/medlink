@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, Navigate, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Archive, CalendarCheck, ClipboardList, MessageSquareText, PhoneCall, SlidersHorizontal, UserRound } from 'lucide-react'
 import { Boton } from '../../componentes/Boton'
+import { EnlacePdf } from '../../componentes/EnlacePdf'
 import { Grafico } from '../../componentes/Grafico'
 import { Chip, EtiquetaPrioridad, Tarjeta, TituloSeccion, Volver } from '../../componentes/ui'
 import { actualizar, useEstado } from '../../datos/almacen'
@@ -55,6 +56,7 @@ function Cabecera({ p, seg }: { p: Paciente; seg?: SeguimientoVersion }) {
 function QueHaCambiado({ estado, aviso, seg }: { estado: Estado; aviso: Aviso; seg: SeguimientoVersion }) {
   const ultima = actualizacionesDe(estado, aviso.id).at(-1)!
   const alterados = seg.parametros.filter((p) => ultima.motivos.some((m) => m.refId === p.id))
+  const documentos = estado.documentos.filter((d) => d.pacienteId === aviso.pacienteId && d.subidoEn >= aviso.creadoEn)
   return (
     <Tarjeta>
       <TituloSeccion>Qué ha cambiado</TituloSeccion>
@@ -65,6 +67,19 @@ function QueHaCambiado({ estado, aviso, seg }: { estado: Estado; aviso: Aviso; s
           </Chip>
         ))}
       </div>
+      {documentos.length > 0 && (
+        <ul className="mt-4 space-y-1.5 text-sm">
+          {documentos.map((d) => (
+            <li key={d.id} className="flex flex-wrap items-center gap-x-2">
+              <EnlacePdf documentoId={d.id}>{d.nombreArchivo}</EnlacePdf>
+              <span className="text-gris">
+                · {d.origen === 'pdf_paciente' ? 'subido por el paciente' : 'laboratorio del hospital'}
+                {!d.medicionIds.length && ' · no se ha detectado ningún parámetro'}
+              </span>
+            </li>
+          ))}
+        </ul>
+      )}
       {alterados.length > 0 && (
         <div className="mt-5 grid gap-5 md:grid-cols-2">
           {alterados.map((p) => {

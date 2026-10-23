@@ -16,6 +16,7 @@ import {
 } from 'lucide-react'
 import { Boton } from '../../componentes/Boton'
 import { Grafico } from '../../componentes/Grafico'
+import { EnlacePdf } from '../../componentes/EnlacePdf'
 import { Confirmacion, EtiquetaPrioridad, Pestanas, Tarjeta, TituloSeccion, Vacio, Volver } from '../../componentes/ui'
 import { useEstado } from '../../datos/almacen'
 import { historialPaciente, resumenRespuestas, type TipoEntrada } from '../../datos/historial'
@@ -212,6 +213,11 @@ function Historial({ estado, p }: { estado: Estado; p: Paciente }) {
                     <li key={j}>{d}</li>
                   ))}
                 </ul>
+              )}
+              {en.documento && (
+                <p className="mt-1 text-sm">
+                  <EnlacePdf documentoId={en.documento.id}>{en.documento.nombre}</EnlacePdf>
+                </p>
               )}
             </>
           )

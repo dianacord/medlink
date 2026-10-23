@@ -46,7 +46,7 @@ export interface Estado {
   eventosCita: EventoCita[]
 }
 
-const nuevoId = (prefijo: string) => `${prefijo}-${crypto.randomUUID().slice(0, 8)}`
+export const nuevoId = (prefijo: string) => `${prefijo}-${crypto.randomUUID().slice(0, 8)}`
 const iso = (ms: number) => new Date(ms).toISOString()
 const t = (fecha: string) => Date.parse(fecha)
 

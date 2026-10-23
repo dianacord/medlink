@@ -23,6 +23,8 @@ export interface EntradaHistorial {
   detalle: string[]
   prioridad?: Prioridad
   enlace?: string
+  /** PDF de la analítica, si lo hay. */
+  documento?: { id: string; nombre: string }
 }
 
 const ORIGEN = {
@@ -73,8 +75,8 @@ export function historialPaciente(e: Estado, pacienteId: string, ahora = Date.no
       fecha: ms[0].fecha,
       tipo: 'analitica',
       titulo: `Analítica · ${ORIGEN[ms[0].origen]}`,
+      documento: documento && { id: documento.id, nombre: documento.nombreArchivo },
       detalle: [
-        ...(documento ? [`Documento: ${documento.nombreArchivo}`] : []),
         ...ms.map((m) => {
           const p = parametro(m.parametroId)
           return `${p?.nombre ?? m.parametroId} ${num(m.valor)} ${p?.unidad ?? ''}${m.verificado ? '' : ' (sin verificar)'}`
@@ -88,7 +90,8 @@ export function historialPaciente(e: Estado, pacienteId: string, ahora = Date.no
       fecha: d.subidoEn,
       tipo: 'analitica',
       titulo: `Analítica · ${ORIGEN[d.origen]}`,
-      detalle: [`Documento: ${d.nombreArchivo}`, 'No se ha detectado ningún parámetro'],
+      documento: { id: d.id, nombre: d.nombreArchivo },
+      detalle: ['No se ha detectado ningún parámetro'],
     })
   }
 
