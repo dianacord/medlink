@@ -1,10 +1,12 @@
-import { Stethoscope, UsersRound } from 'lucide-react'
+import { Stethoscope, UsersRound, Zap } from 'lucide-react'
 import { Boton } from '../../componentes/Boton'
 import { Fondo } from '../../componentes/Fondo'
 import { Ilustracion } from '../../componentes/Ilustracion'
 import { Marca, PieDemo } from '../../componentes/Marca'
+import { useEntrarDePrueba } from '../../componentes/entrarDePrueba'
 
 export default function Bienvenida() {
+  const probar = useEntrarDePrueba()
   return (
     <div className="flex min-h-dvh flex-col items-center px-4">
       <Fondo />
@@ -25,6 +27,20 @@ export default function Bienvenida() {
             Iniciar sesión como paciente
           </Boton>
         </div>
+        <section className="mt-8 rounded-3xl bg-primario-suave/70 p-4 text-center">
+          <p className="flex items-center justify-center gap-1.5 text-sm font-semibold text-marino">
+            <Zap className="size-4 text-primario" /> Prueba rápida, sin contraseña
+          </p>
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            <button onClick={() => probar('paciente')} className="rounded-xl bg-white px-3 py-3 text-sm font-semibold text-primario shadow-sm hover:bg-primario hover:text-white">
+              Soy paciente
+            </button>
+            <button onClick={() => probar('medico')} className="rounded-xl bg-white px-3 py-3 text-sm font-semibold text-primario shadow-sm hover:bg-primario hover:text-white">
+              Soy médico
+            </button>
+          </div>
+          <p className="mt-2 text-xs text-gris">Cada móvil tiene sus propios datos de prueba.</p>
+        </section>
       </main>
       <PieDemo />
     </div>

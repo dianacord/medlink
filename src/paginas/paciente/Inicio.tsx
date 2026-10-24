@@ -19,7 +19,7 @@ import { useUsuario } from '../../datos/sesion'
 import { vistaPaciente, type EstadoPaciente } from '../../datos/vistaPaciente'
 import { fechaConDia, fechaCorta, hora } from '../../logica/formato'
 
-function textoEstado(estado: EstadoPaciente): { icono: LucideIcon; titulo: string; texto: string } {
+function textoEstado(estado: EstadoPaciente, encuestaPendiente: boolean): { icono: LucideIcon; titulo: string; texto: string } {
   switch (estado.tipo) {
     case 'cita_propuesta':
       return { icono: CalendarClock, titulo: 'Tienes una propuesta de cita', texto: 'Tu médico quiere hablar contigo. Revísala y acéptala o pide otro día.' }
@@ -28,7 +28,9 @@ function textoEstado(estado: EstadoPaciente): { icono: LucideIcon; titulo: strin
     case 'en_revision':
       return { icono: Hourglass, titulo: 'Tu médico lo revisará', texto: 'Hemos recibido tus datos. Si necesita hablar contigo, te propondrá una cita aquí.' }
     case 'todo_bien':
-      return { icono: CircleCheck, titulo: 'Todo bien', texto: `Tu próxima encuesta es el ${fechaConDia(estado.proximaEncuesta)}.` }
+      return encuestaPendiente
+        ? { icono: CircleCheck, titulo: 'Todo bien', texto: 'Hoy toca responder tu encuesta. Son menos de 2 minutos.' }
+        : { icono: CircleCheck, titulo: 'Todo bien', texto: `Tu próxima encuesta es el ${fechaConDia(estado.proximaEncuesta)}.` }
   }
 }
 
@@ -60,7 +62,7 @@ export default function Inicio() {
     )
   }
 
-  const { icono: Icono, titulo, texto } = textoEstado(vista.estado)
+  const { icono: Icono, titulo, texto } = textoEstado(vista.estado, !!vista.encuestaPendiente)
   const tarjetaEstado = (
     <section className="flex gap-4 rounded-3xl bg-primario-suave p-5">
       <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-white text-primario">
