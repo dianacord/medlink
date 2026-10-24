@@ -1,0 +1,550 @@
+codigo,hospital,comunidad,camas,publico,dependencia
+230206,Centro Hospitalario de Alta Resolución de Cazorla,Andalucía,26,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+230063,Clínica Cristo Rey,Andalucía,39,0,Privados
+210084,Clínica Los Naranjos,Andalucía,34,0,Privados
+110103,Clínica Los Álamos,Andalucía,15,0,Privados
+410107,Clínica Santa Isabel,Andalucía,96,0,Privados
+290382,Clínicas del Sur Slu,Andalucía,74,0,Privados
+290141,HM El Pilar,Andalucía,24,0,Privados
+290108,HM Gálvez,Andalucía,62,0,Privados
+290115,HM Málaga,Andalucía,105,0,Privados
+290359,Ha Marbella International Hospital,Andalucía,30,0,Privados
+290494,Helicópteros Sanitarios Hospital,Andalucía,10,0,Privados
+230145,Hospital Alto Guadalquivir,Andalucía,67,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140252,Hospital Centro de Andalucía,Andalucía,196,0,Privados
+290038,Hospital Civil,Andalucía,201,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290287,Hospital Costa del Sol,Andalucía,408,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140076,Hospital Cruz Roja de Córdoba,Andalucía,138,0,Privados
+180191,Hospital Doctor Oloriz,Andalucía,50,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+230026,Hospital Doctor Sagaz,Andalucía,54,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410227,Hospital El Tomillar,Andalucía,80,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290094,Hospital El Ángel,Andalucía,138,0,Privados
+410129,Hospital Fátima,Andalucía,73,0,Privados
+110162,Hospital General Santa Maria del Puerto,Andalucía,238,0,Privados
+210025,Hospital Infanta Elena,Andalucía,304,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140116,Hospital Infanta Margarita,Andalucía,232,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290228,Hospital Internacional HM Santa Elena,Andalucía,90,0,Privados
+110239,Hospital Jerez Puerta del Sur,Andalucía,98,0,Privados
+040084,Hospital La Inmaculada,Andalucía,184,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410251,Hospital La Merced,Andalucía,225,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140039,Hospital Los Morales,Andalucía,19,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290213,Hospital Marítimo de Torremolinos,Andalucía,89,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140044,Hospital Materno - Infantil del H.U. Reina Sofia,Andalucía,194,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+040138,Hospital Materno Infantil,Andalucía,204,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+040101,Hospital Mediterráneo,Andalucía,89,0,Privados
+230217,Hospital Metropolitano de Jaén,Andalucía,35,0,Privados
+230047,Hospital Neurotraumatologico del H.U. de Jaén,Andalucía,186,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+110048,Hospital Nuestra Sra. de La Salud Ha S.L.,Andalucía,58,0,Privados
+290461,Hospital Ochoa,Andalucía,22,0,Privados
+140263,Hospital Palma del Rio,Andalucía,20,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140060,Hospital Provincial,Andalucía,389,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+230195,Hospital Puerta de Andalucía,Andalucía,79,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+110259,Hospital Punta de Europa,Andalucía,270,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140241,Hospital Quironsalud Córdoba,Andalucía,115,0,Privados
+210137,Hospital Quironsalud Huelva,Andalucía,56,0,Privados
+410135,Hospital Quironsalud Infanta Luisa,Andalucía,139,0,Privados
+290173,Hospital Quironsalud Marbella,Andalucía,75,0,Privados
+290449,Hospital Quironsalud Málaga,Andalucía,160,0,Privados
+410114,Hospital Quironsalud Sagrado Corazón,Andalucía,147,0,Privados
+110282,Hospital Quirón Campo de Gibraltar,Andalucía,77,0,Privados
+290472,Hospital Recoletas Marbella Slu,Andalucía,22,0,Privados
+230079,Hospital San Agustín,Andalucía,234,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410233,Hospital San Agustín,Andalucía,93,0,Privados
+110305,Hospital San Carlos de San Fernando,Andalucía,66,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+110125,Hospital San Juan Grande,Andalucía,143,0,Privados
+140082,Hospital San Juan de Dios de Córdoba,Andalucía,205,0,Privados
+410080,Hospital San Juan de Dios de Sevilla,Andalucía,47,0,Privados
+410353,Hospital San Juan de Dios del Aljarafe,Andalucía,200,1,Otros Centros o Establecimientos Públicos de Dependencia Autonómica
+230098,Hospital San Juan de La Cruz,Andalucía,225,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410055,Hospital San Lázaro,Andalucía,66,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+180055,Hospital San Rafael,Andalucía,166,0,Privados
+110051,Hospital San Rafael,Andalucía,280,0,Privados
+180107,Hospital Santa Ana,Andalucía,184,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+180150,Hospital Universitario Clínico San Cecilio,Andalucía,543,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+210123,Hospital Universitario Juan Ramon Jimenez,Andalucía,587,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+110327,Hospital Universitario Puerta del Mar,Andalucía,674,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290017,Hospital Universitario Regional de Málaga,Andalucía,523,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140230,Hospital Universitario Reina Sofia,Andalucía,607,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+040010,Hospital Universitario Torrecardenas,Andalucía,779,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410042,Hospital Universitario Virgen Macarena,Andalucía,777,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290022,Hospital Universitario Virgen de La Victoria,Andalucía,657,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+180016,Hospital Universitario Virgen de Las Nieves,Andalucía,844,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410021,Hospital Universitario Virgen de Valme,Andalucía,617,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410016,Hospital Universitario Virgen del Rocío,Andalucía,628,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+230011,Hospital Universitario de Jaén,Andalucía,692,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+110110,Hospital Universitario de Jerez de La Frontera,Andalucía,484,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+040118,Hospital Universitario de Poniente,Andalucía,281,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+110184,Hospital Universitario de Puerto Real,Andalucía,319,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290517,Hospital Valle de Guadalhorce de Cartama,Andalucía,28,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140121,Hospital Valle de Los Pedroches,Andalucía,142,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+110248,Hospital Viamed Bahía de Cádiz,Andalucía,46,0,Privados
+110260,Hospital Viamed Novo Sancti Petri,Andalucía,37,0,Privados
+410409,Hospital Viamed Santa Angela de La Cruz,Andalucía,105,0,Privados
+410074,Hospital Victoria Eugenia de La Cruz Roja Española,Andalucía,39,0,Privados
+210148,Hospital Virgen de La Bella,Andalucía,61,0,Privados
+110218,Hospital Virgen de Las Montañas,Andalucía,108,0,Privados
+110223,Hospital Virgen del Camino,Andalucía,118,0,Privados
+040059,Hospital Virgen del Mar,Andalucía,76,0,Privados
+180146,Hospital Vithas Granada,Andalucía,77,0,Privados
+290081,Hospital Vithas Parque San Antonio,Andalucía,100,0,Privados
+410375,Hospital Vithas Sevilla,Andalucía,148,0,Privados
+290450,Hospital Vithas Xanit Estepona,Andalucía,10,0,Privados
+290405,Hospital Vithas Xanit Internacional,Andalucía,125,0,Privados
+210031,Hospital Vázquez Diaz,Andalucía,91,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+040127,Hospital de Alta Resolución El Toyo,Andalucía,44,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+230162,Hospital de Alta Resolución Sierra de Segura,Andalucía,24,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140229,Hospital de Alta Resolución Valle del Guadiato,Andalucía,17,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+230184,Hospital de Alta Resolución de Alcalá La Real,Andalucía,28,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+230173,Hospital de Alta Resolución de Alcaudete,Andalucía,16,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+110213,Hospital de Alta Resolución de Especialidades de La Janda,Andalucía,24,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290528,Hospital de Alta Resolución de Estepona,Andalucía,14,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+180122,Hospital de Alta Resolución de Guadix,Andalucía,50,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410454,Hospital de Alta Resolución de Lebrija,Andalucía,22,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+180133,Hospital de Alta Resolución de Loja,Andalucía,18,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410248,Hospital de Alta Resolución de Morón de La Frontera,Andalucía,12,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140218,Hospital de Alta Resolución de Puente Genil,Andalucía,24,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+410386,Hospital de Alta Resolución de Utrera,Andalucía,14,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290154,Hospital de Antequera,Andalucía,159,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+180093,Hospital de Baza,Andalucía,117,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290206,Hospital de La Axarquia,Andalucía,219,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+180074,Hospital de La Inmaculada Concepción,Andalucía,95,0,Privados
+110316,Hospital de La Línea de La Concepción,Andalucía,243,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+290506,Hospital de La Serranía,Andalucía,150,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+140195,Hospital de Montilla,Andalucía,73,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+210097,Hospital de Riotinto,Andalucía,118,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+500093,"Clínica Montpellier, Grupo Ha, S.A.U",Aragón,90,0,Privados
+500016,Hospital Clínico Universitario Lozano Blesa,Aragón,808,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+500153,Hospital Ernest Lluch Martin,Aragón,122,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+500140,Hospital General de La Defensa En Zaragoza,Aragón,200,1,Ministerio de Defensa
+500223,Hospital Hernan Cortes Miraflores,Aragón,36,0,Privados
+500080,Hospital Maz,Aragón,81,0,Mútuas Colaboradoras con La Seguridad Social
+500074,Hospital Nuestra Señora de Gracia,Aragón,145,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+440012,Hospital Obispo Polanco,Aragón,211,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+500129,Hospital Quironsalud Zaragoza,Aragón,104,0,Privados
+500055,Hospital Royo Villanova,Aragón,256,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+500021,Hospital Universitario Miguel Servet,Aragón,1198,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+220015,Hospital Universitario San Jorge,Aragón,297,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+500218,Hospital Viamed Montecanal,Aragón,68,0,Privados
+220041,Hospital Viamed Santiago,Aragón,28,0,Privados
+440048,Hospital de Alcañiz,Aragón,145,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+220054,Hospital de Barbastro,Aragón,170,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+220089,Hospital de Jaca Salud,Aragón,50,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+310076,Clínica Arcángel San Miguel - Pamplona,C. Foral de Navarra,72,0,Privados
+310060,Clínica Universidad de Navarra,C. Foral de Navarra,230,0,Privados
+310121,Hospital Garcia Orcoyen,C. Foral de Navarra,108,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+310137,Hospital Reina Sofia,C. Foral de Navarra,190,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+310044,Hospital San Juan de Dios,C. Foral de Navarra,288,0,Privados
+310150,Hospital Universitario de Navarra,C. Foral de Navarra,1077,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+350167,Clínica Cajal,Canarias,136,0,Privados
+350290,Complejo Hospitalario Universitario Insular Materno Infantil,Canarias,916,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+350252,Hospital General de Fuerteventura,Canarias,131,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+380276,Hospital Insular Nuestra Señora de Los Reyes,Canarias,32,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+350154,Hospital La Paloma,Canarias,108,0,Privados
+380244,Hospital Nuestra Señora de Guadalupe,Canarias,40,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+380103,Hospital Parque,Canarias,67,0,Privados
+350206,Hospital Perpetuo Socorro,Canarias,195,0,Privados
+380201,Hospital Quironsalud Vida,Canarias,24,0,Privados
+380282,Hospital Quirón Salud Costa Adeje,Canarias,62,0,Privados
+380086,Hospital Quirón Salud Tenerife,Canarias,187,0,Privados
+350115,Hospital San José,Canarias,66,0,Privados
+380064,Hospital San Juan de Dios Tenerife,Canarias,141,0,Organizaciones No Gubernamentales
+350228,Hospital Universitario Dr. José Molina Orosa,Canarias,252,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+380316,Hospital Universitario General de La Palma,Canarias,198,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+380223,Hospital Universitario Hospiten Bellevue,Canarias,199,0,Privados
+380295,Hospital Universitario Hospiten Rambla,Canarias,97,0,Privados
+380146,Hospital Universitario Hospiten Sur,Canarias,242,0,Privados
+380027,Hospital Universitario Nuestra Señora de Candelaria,Canarias,839,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+350173,Hospital Universitario San Roque Las Palmas,Canarias,162,0,Privados
+350367,Hospital Universitario San Roque Maspalomas,Canarias,147,0,Privados
+350120,Hospital Universitario Vithas Las Palmas,Canarias,157,0,Privados
+380178,Hospital Universitario de Canarias,Canarias,681,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+350311,Hospital Universitario de Gran Canaria Dr. Negrín,Canarias,652,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+380033,Hospital de Ofra,Canarias,63,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+380348,Hospital del Sur,Canarias,98,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+350304,Hospiten Clínica Roca San Agustín,Canarias,81,0,Privados
+350326,Hospiten Lanzarote,Canarias,61,0,Privados
+380099,Vithas Hospital Santa Cruz,Canarias,62,0,Privados
+390134,Hospital Comarcal de Laredo,Cantabria,131,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+390152,Hospital Mompia,Cantabria,105,0,Privados
+390149,Hospital Sierrallana,Cantabria,301,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+390015,Hospital Universitario Marques de Valdecilla,Cantabria,923,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+240212,Clínica Ponferrada Recoletas,Castilla y León,46,0,Privados
+240055,HM Regla,Castilla y León,130,0,Organizaciones No Gubernamentales
+470029,Hospital Clínico Universitario de Valladolid,Castilla y León,777,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+240135,Hospital El Bierzo,Castilla y León,413,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+370055,Hospital General de La Santísima Trinidad,Castilla y León,106,0,Privados
+400019,Hospital General de Segovia Complejo Asistencial de Segovia,Castilla y León,381,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+240074,Hospital HM San Francisco,Castilla y León,75,0,Privados
+420051,Hospital Latorre,Castilla y León,29,0,Privados
+370074,Hospital Los Montalvos. Complejo Asistencial Universitario de Salamanca.,Castilla y León,183,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+470091,Hospital Medina del Campo,Castilla y León,119,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+050013,Hospital Nuestra Señora de Sonsoles,Castilla y León,321,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+490028,Hospital Provincial de Zamora Complejo Asistencial de Zamora,Castilla y León,140,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+050034,Hospital Provincial de Ávila,Castilla y León,119,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+470113,Hospital Recoletas Campo Grande,Castilla y León,99,0,Privados
+400045,Hospital Recoletas Segovia Nuestra Señora de La Misericordia,Castilla y León,36,0,Privados
+090047,Hospital Recoletas de Burgos,Castilla y León,83,0,Privados
+340053,Hospital Recoletas de Palencia,Castilla y León,22,0,Privados
+490081,Hospital Recoletas de Zamora,Castilla y León,44,0,Privados
+340014,Hospital Rio Carrión. Complejo Asistencial Universitario de Palencia.,Castilla y León,376,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+240188,Hospital San Juan de Dios León,Castilla y León,297,0,Organizaciones No Gubernamentales
+340029,Hospital San Telmo. Complejo Asistencial Universitario de Palencia.,Castilla y León,119,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+420011,"Hospital Santa Barbara ,Complejo Asistencial de Soria",Castilla y León,232,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+050049,Hospital Santa Teresa,Castilla y León,33,0,Privados
+090098,Hospital Santiago Apóstol,Castilla y León,114,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+090079,Hospital Santos Reyes,Castilla y León,127,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+470014,Hospital Universitario Rio Hortega,Castilla y León,596,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+090155,Hospital Universitario de Burgos. Complejo Asistencial Universitario de Burgos,Castilla y León,777,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+370037,Hospital Universitario de Salamanca. Complejo Asistencial Universitario de Salmanca,Castilla y León,814,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+490013,Hospital Virgen de La Concha Complejo Asistencial de Zamora,Castilla y León,349,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+490065,Hospital de Benavente Complejo Asistencial de Zamora,Castilla y León,51,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+240140,Hospital de La Reina,Castilla y León,72,0,Organizaciones No Gubernamentales
+240016,Hospital de León. Complejo Asistencial Universitario de León.,Castilla y León,789,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+470105,Hospital de Valladolid Felipe Ir,Castilla y León,79,0,Privados
+470053,Sanatorio Sagrado Corazón,Castilla y León,48,0,Organizaciones No Gubernamentales
+190045,Clínica Doctor Sanz Vázquez,Castilla-La Mancha,40,0,Privados
+130052,Hospital General La Mancha Centro,Castilla-La Mancha,362,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+450067,Hospital General Nuestra Señora del Prado,Castilla-La Mancha,312,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+020030,Hospital General Universitario de Albacete,Castilla-La Mancha,510,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+130127,Hospital General Universitario de Ciudad Real,Castilla-La Mancha,564,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+020136,Hospital General de Almansa,Castilla-La Mancha,93,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+130128,Hospital General de Tomelloso,Castilla-La Mancha,155,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+130087,Hospital General de Valdepeñas,Castilla-La Mancha,103,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+020147,Hospital General de Villarrobledo,Castilla-La Mancha,114,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+450020,Hospital Geriátrico Virgen del Valle,Castilla-La Mancha,155,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+190030,Hospital La Antigua,Castilla-La Mancha,63,0,Privados
+450089,Hospital Parque Marazuela,Castilla-La Mancha,15,0,Privados
+450041,Hospital Provincial Ntra.Sra. De La Misericordia,Castilla-La Mancha,40,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+020100,Hospital Quironsalud Albacete,Castilla-La Mancha,65,0,Privados
+130049,Hospital Quironsalud Ciudad Real,Castilla-La Mancha,55,0,Privados
+020061,Hospital Quironsalud Santa Cristina,Castilla-La Mancha,42,0,Privados
+450122,Hospital Quironsalud Toledo,Castilla-La Mancha,78,0,Privados
+160053,"Hospital Recoletas Cuenca, S.L.U.",Castilla-La Mancha,30,0,Privados
+450113,Hospital San José Solimat,Castilla-La Mancha,10,0,Mútuas Colaboradoras con La Seguridad Social
+130071,Hospital Santa Barbara,Castilla-La Mancha,141,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+020117,Hospital Universitario Nuestra Señora del Perpetuo Socorro,Castilla-La Mancha,159,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+190019,Hospital Universitario de Guadalajara,Castilla-La Mancha,496,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+450144,Hospital Universitario de Toledo (Hut),Castilla-La Mancha,861,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+130065,Hospital Virgen de Altagracia,Castilla-La Mancha,118,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+160014,Hospital Virgen de La Luz,Castilla-La Mancha,388,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+020096,Hospital de Hellín,Castilla-La Mancha,135,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+081458,Aptima Centre Clinic - Mutua de Terrassa,Cataluña,70,0,Privados
+080497,Centre Hospitalari Policlínica Barcelona,Cataluña,28,0,Privados
+430108,Centre Mq Reus,Cataluña,50,0,Privados
+080137,Centre de Prevencio I Rehabilitacio Asepeyo,Cataluña,138,0,Mútuas Colaboradoras con La Seguridad Social
+080478,"Centro Medico Teknon, Grupo Quironsalud",Cataluña,285,0,Privados
+170031,Clínica Bofill,Cataluña,47,0,Privados
+080370,Clínica Corachan,Cataluña,162,0,Privados
+081751,Clínica Creu Blanca,Cataluña,51,0,Privados
+082167,Clínica Diagonal,Cataluña,101,0,Privados
+170059,Clínica Girona,Cataluña,126,0,Privados
+080142,Clínica Mc Copernic,Cataluña,60,0,Mútuas Colaboradoras con La Seguridad Social
+080155,Clínica Mc Londres,Cataluña,22,0,Mútuas Colaboradoras con La Seguridad Social
+250061,Clínica Mi Nova Aliança,Cataluña,50,0,Privados
+080229,Clínica Nostra Senyora del Remei,Cataluña,134,0,Privados
+250058,"Clínica Perpetuo Socorro de Lérida, Grupo Ha, Slu",Cataluña,58,0,Privados
+170062,Clínica Quirúrgica Onyar,Cataluña,38,0,Privados
+080235,Clínica Sagrada Familia,Cataluña,150,0,Privados
+170097,Clínica Salus Infirmorum,Cataluña,100,0,Privados
+080832,Clínica Sant Josep,Cataluña,95,0,Privados
+081115,Clínica Sant Josep,Cataluña,21,0,Privados
+170139,Clínica Santa Creu,Cataluña,35,0,Privados
+430189,Clínica Terres de L'Ebre,Cataluña,40,1,Municipio
+080386,Clínica Tres Torres,Cataluña,64,0,Privados
+081997,"Cqm Clinic Maresme, S.L.",Cataluña,10,0,Privados
+250156,Espitau Val D'Aran,Cataluña,40,0,Privados
+080116,"Fremap, Hospital de Barcelona",Cataluña,62,0,Mútuas Colaboradoras con La Seguridad Social
+080898,Fundacio Hospital Sant Joan de Deu (Martorell),Cataluña,112,0,Privados
+081069,Fundacio Hospital de L'Esperit Sant,Cataluña,177,0,Privados
+250117,Fundacio Sant Hospital.,Cataluña,88,0,Privados
+080403,HM Nou Delfos,Cataluña,264,0,Privados
+080109,Hospital Clinic de Barcelona,Cataluña,844,1,Otras Entidades u o rganismos Públicos
+080431,"Hospital Clinic de Barcelona, Seu Plato",Cataluña,168,1,Otras Entidades u o rganismos Públicos
+430252,Hospital Comarcal D'Amposta,Cataluña,103,1,Municipio
+430081,Hospital Comarcal Mora D'Ebre,Cataluña,120,1,Otras Entidades u o rganismos Públicos
+080706,Hospital Comarcal Sant Jaume de Calella,Cataluña,233,0,Privados
+170237,Hospital Comarcal de Blanes,Cataluña,121,1,Otras Entidades u o rganismos Públicos
+081430,Hospital Comarcal de L'Alt Penedés,Cataluña,144,1,Otras Entidades u o rganismos Públicos
+250143,Hospital Comarcal del Pallars,Cataluña,63,1,Otras Entidades u o rganismos Públicos
+081885,Hospital D'Igualada,Cataluña,285,1,Otras Entidades u o rganismos Públicos
+170176,Hospital D'Olot I Comarcal de La Garrotxa,Cataluña,137,0,Privados
+080174,Hospital Dos de Maig,Cataluña,229,1,Otras Entidades u o rganismos Públicos
+080168,Hospital Egarsat Sant Honorat,Cataluña,14,0,Mútuas Colaboradoras con La Seguridad Social
+080180,Hospital El Pilar,Cataluña,186,0,Privados
+081728,Hospital General Penitenciari,Cataluña,32,1,Otras Entidades u o rganismos Públicos
+080734,Hospital General de Granollers.,Cataluña,316,0,Privados
+080771,Hospital General de L'Hospitalet,Cataluña,102,1,Otras Entidades u o rganismos Públicos
+081108,Hospital General de Vic,Cataluña,292,1,Otras Entidades u o rganismos Públicos
+080673,Hospital Municipal de Badalona,Cataluña,140,1,Municipio
+080399,Hospital Quironsalud Barcelona,Cataluña,192,0,Privados
+082012,Hospital Quirón Salud del Valles - Clínica del Valles,Cataluña,71,0,Privados
+081038,Hospital Residencia Sant Camil - Consorci Sanitari de L'Alt Penedés I Garraf,Cataluña,295,1,Otras Entidades u o rganismos Públicos
+081672,Hospital Sanitas Cima,Cataluña,83,0,Privados
+080214,Hospital Sant Rafael,Cataluña,213,1,Otras Entidades u o rganismos Públicos
+170301,Hospital Santa Caterina-Ias,Cataluña,178,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+250024,Hospital Santa Maria,Cataluña,251,1,Otras Entidades u o rganismos Públicos
+250019,Hospital Universitari Arnau de Vilanova de Lleida.,Cataluña,482,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+081017,Hospital Universitari General de Catalunya,Cataluña,304,0,Privados
+080667,Hospital Universitari Germans Trías I Pujol de Badalona,Cataluña,616,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+430017,Hospital Universitari Joan Xixi de Tarragona,Cataluña,372,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+081094,Hospital Universitari Mutua de Terrassa,Cataluña,534,0,Privados
+080446,Hospital Universitari Quirón Dexeus,Cataluña,170,0,Privados
+080364,Hospital Universitari Sagrat Cor,Cataluña,367,0,Privados
+081347,Hospital Universitari Vall D'Hebron,Cataluña,1315,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+080752,Hospital Universitari de Bellvitge,Cataluña,1086,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+170010,Hospital Universitari de Girona Dr. Josep Trueta,Cataluña,431,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+430094,Hospital Universitari de Sant Joan de Reus,Cataluña,313,1,Otras Entidades u o rganismos Públicos
+430056,Hospital Viamed Monegal,Cataluña,53,0,Privados
+080484,Hospital de Barcelona,Cataluña,350,0,Privados
+080692,Hospital de Berga,Cataluña,150,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+170118,Hospital de Campdevanol,Cataluña,80,0,Privados
+170334,Hospital de Cerdanya / Hospital de Cerdagne,Cataluña,66,1,Otras Entidades u o rganismos Públicos
+170123,Hospital de Figueres,Cataluña,168,0,Privados
+080060,Hospital de L'Esperança.,Cataluña,161,1,Otras Entidades u o rganismos Públicos
+080291,Hospital de La Santa Creu I Sant Pau,Cataluña,644,0,Privados
+081326,Hospital de Mataró,Cataluña,402,1,Otras Entidades u o rganismos Públicos
+080945,Hospital de Mollet,Cataluña,174,0,Privados
+170195,Hospital de Palamós,Cataluña,136,0,Privados
+080958,Hospital de Sabadell,Cataluña,861,1,Otras Entidades u o rganismos Públicos
+081000,Hospital de Sant Celoni.,Cataluña,100,0,Privados
+082066,Hospital de Sant Joan Despi Moisés Broggi,Cataluña,328,1,Otras Entidades u o rganismos Públicos
+080863,Hospital de Sant Joan de Deu (Manresa),Cataluña,288,0,Privados
+430043,Hospital de Sant Pau I Santa Tecla,Cataluña,186,0,Privados
+081075,Hospital de Terrassa.,Cataluña,460,1,Otras Entidades u o rganismos Públicos
+430167,Hospital de Tortosa Vergé de La Cinta,Cataluña,248,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+081141,Hospital de Viladecans,Cataluña,110,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+080057,Hospital del Mar,Cataluña,470,1,Otras Entidades u o rganismos Públicos
+430298,Hospital del Vendrell,Cataluña,120,0,Privados
+081402,"Mutua de Granollers, Mutua de Previsio Social A Prima Fixa",Cataluña,20,0,Privados
+081683,Parc Sanitari Sant Joan de Deu - App - 1,Cataluña,150,0,Privados
+081919,Parc Sanitari Sant Joan de Deu - App - 2,Cataluña,152,0,Privados
+080983,Parc Sanitari Sant Joan de Deu - Recinte Sant Boi.,Cataluña,1065,0,Privados
+430228,Pius Hospital de Valls,Cataluña,142,0,Privados
+430213,Policlínica Comarcal del Vendrell.,Cataluña,136,0,Privados
+250045,Vithas Hospital Montserrat,Cataluña,47,0,Privados
+510039,Hospital Universitario de Ceuta,Ceuta,246,1,Instituto de Gestión Sanitaria-Ingesa
+030036,Clínica Vistahermosa Grupo Ha,Comunidad Valenciana,106,0,Privados
+460060,Consorcio Hospital General Universitario de Valencia,Comunidad Valenciana,546,1,Otros Centros o Establecimientos Públicos de Dependencia Autonómica
+120043,Consorcio Hospitalario Provincial de Castellón,Comunidad Valenciana,257,1,Otros Centros o Establecimientos Públicos de Dependencia Autonómica
+460291,Hospital 9 de Octubre,Comunidad Valenciana,300,0,Privados
+460039,Hospital Arnau de Vilanova,Comunidad Valenciana,282,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460082,Hospital Católico Casa de Salud,Comunidad Valenciana,192,0,Privados
+030092,Hospital Clínica Benidorm,Comunidad Valenciana,163,0,Privados
+460044,Hospital Clínico Universitario de Valencia,Comunidad Valenciana,582,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+120115,Hospital Comarcal de Vinaros,Comunidad Valenciana,174,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460207,Hospital Francesc de Borja de Gandía,Comunidad Valenciana,285,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030015,Hospital General Universitario Dr. Balmis,Comunidad Valenciana,807,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+120017,Hospital General Universitario de Castellón,Comunidad Valenciana,521,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030152,Hospital General Universitario de Elche,Comunidad Valenciana,408,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030165,Hospital General Universitario de Elda-Virgen de La Salud,Comunidad Valenciana,513,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460235,Hospital General de Ontinyent,Comunidad Valenciana,56,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460288,Hospital General de Requena,Comunidad Valenciana,113,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030384,Hospital IMED Elche,Comunidad Valenciana,98,0,Privados
+460327,Hospital IMED Gandía,Comunidad Valenciana,23,0,Privados
+030328,Hospital IMED Levante,Comunidad Valenciana,152,0,Privados
+030089,Hospital IMED San Jorge,Comunidad Valenciana,26,0,Privados
+030406,Hospital Internacional Hcb Denia,Comunidad Valenciana,62,0,Privados
+460229,Hospital Lluis Alcanyis de Xativa,Comunidad Valenciana,273,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030204,Hospital Marina Baixa de La Vila Joiosa,Comunidad Valenciana,270,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030226,Hospital Medimar Internacional,Comunidad Valenciana,66,0,Privados
+460333,Hospital Nisa Aguas Vivas,Comunidad Valenciana,96,0,Privados
+030298,Hospital Quironsalud Torrevieja,Comunidad Valenciana,132,0,Privados
+460137,Hospital Quironsalud Valencia,Comunidad Valenciana,88,0,Privados
+120159,Hospital Rey D. Jaime,Comunidad Valenciana,96,0,Privados
+030128,Hospital San Carlos de Denia Grupo HA,Comunidad Valenciana,31,0,Privados
+460023,Hospital Universitario Dr. Peset Aleixandre,Comunidad Valenciana,539,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030250,Hospital Universitario San Juan de Alicante,Comunidad Valenciana,396,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030373,Hospital Universitario Vinalopó,Comunidad Valenciana,214,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+120136,Hospital Universitario de La Plana,Comunidad Valenciana,264,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460351,Hospital Universitario de La Ribera,Comunidad Valenciana,364,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030339,Hospital Universitario de Torrevieja,Comunidad Valenciana,269,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460018,Hospital Universitario y Politécnico La Fe,Comunidad Valenciana,1000,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030211,Hospital Vega Baja de Orihuela,Comunidad Valenciana,336,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+030067,Hospital Virgen de Los Lirios,Comunidad Valenciana,305,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460116,Hospital Vithas Valencia Consuelo,Comunidad Valenciana,156,0,Privados
+030340,Hospital de Denia,Comunidad Valenciana,266,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460392,Hospital de Lliria,Comunidad Valenciana,92,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460370,Hospital de Manises,Comunidad Valenciana,354,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460266,Hospital de Sagunto,Comunidad Valenciana,252,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+460459,IMED Colón,Comunidad Valenciana,32,0,Privados
+460404,IMED Valencia,Comunidad Valenciana,207,0,Privados
+030041,Vithas Hospital Perpetuo Internacional,Comunidad Valenciana,103,0,Privados
+100106,Clínica Soquimex,Extremadura,15,0,Privados
+100054,Hospital Campo Arañuelo,Extremadura,106,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+100041,Hospital Ciudad de Coria,Extremadura,108,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+060093,Hospital Don Benito-Villanueva de La Serena,Extremadura,252,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+060114,Hospital General de Llerena,Extremadura,138,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+100113,Hospital Parque San Francisco,Extremadura,36,0,Privados
+060297,Hospital Parque Vegas Altas,Extremadura,21,0,Privados
+060220,Hospital Perpetuo Socorro,Extremadura,264,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+060172,Hospital Quironsalud Clideba,Extremadura,76,0,Privados
+100092,Hospital Quironsalud Cáceres,Extremadura,25,0,Privados
+060286,Hospital Ribera Badajoz,Extremadura,20,0,Privados
+100015,Hospital San Pedro de Alcántara,Extremadura,308,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+060140,Hospital Santa Justa,Extremadura,28,1,Municipio
+060231,Hospital Siberia-Serena,Extremadura,43,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+060242,Hospital Tierra de Barros,Extremadura,44,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+060021,Hospital Universitario de Badajoz,Extremadura,438,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+100115,Hospital Universitario de Cáceres,Extremadura,230,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+100067,Hospital Virgen del Puerto,Extremadura,282,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+060129,Hospital de Mérida,Extremadura,331,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+060208,Hospital de Zafra,Extremadura,91,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+320087,Centro Medico El Carmen,Galicia,43,0,Privados
+360255,Centro Medico Pintado,Galicia,12,0,Privados
+320163,Clínica Santa Teresa,Galicia,49,0,Privados
+150011,Complexo Hospitalario Universitario A Coruña,Galicia,1365,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+150130,Complexo Hospitalario Universitario de Ferrol,Galicia,469,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+270018,Complexo Hospitalario Universitario de Lugo,Galicia,817,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+320013,Complexo Hospitalario Universitario de Ourense,Galicia,859,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+360340,Complexo Hospitalario Universitario de Pontevedra,Galicia,584,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+150200,Complexo Hospitalario Universitario de Santiago,Galicia,1511,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+360368,Complexo Hospitalario Universitario de Vigo,Galicia,1261,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+360216,Concheiro Centro Medico Quirúrgico,Galicia,40,0,Privados
+360059,Grupo Quironsalud Pontevedra,Galicia,127,0,Privados
+150354,HM Modelo-Belen,Galicia,146,0,Privados
+150365,Hospital HM Rosaleda-HM La Esperanza,Galicia,119,0,Privados
+150336,Hospital Publico Da Barbanza,Galicia,82,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+270095,Hospital Publico Da Mariña,Galicia,156,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+360353,Hospital Publico Do Salnes,Galicia,131,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+150341,Hospital Publico Virxe Da Xunqueira,Galicia,74,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+270109,Hospital Publico de Monforte,Galicia,140,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+320126,Hospital Publico de Valdeorras,Galicia,100,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+320150,Hospital Publico de Verín,Galicia,98,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+150063,Hospital Quironsalud A Coruña,Galicia,127,0,Privados
+270076,Hospital Quirón Salud Lugo,Galicia,69,0,Privados
+150177,Hospital Ribera Juan Cardona,Galicia,150,0,Privados
+270057,Hospital Ribera Polusa,Galicia,97,0,Privados
+360182,Hospital Ribera Povisa,Galicia,573,0,Privados
+150079,Hospital San Rafael,Galicia,120,0,Privados
+360209,Vithas Hospital Nosa Señora de Fátima,Galicia,200,0,Privados
+070110,Clínica Juaneda,Illes Balears,191,0,Privados
+070456,Clínica Juaneda Ciutadella,Illes Balears,55,0,Privados
+070295,Clínica Juaneda Mahón,Illes Balears,18,0,Privados
+070244,Clínica Juaneda Menorca,Illes Balears,41,0,Privados
+070434,Clínica Luz de Palma,Illes Balears,19,0,Privados
+070099,Clínica Rotger,Illes Balears,193,0,Privados
+070184,Hospital Can Misses,Illes Balears,382,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+070377,Hospital Comarcal D´Inca,Illes Balears,173,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+070260,Hospital Juaneda Muro,Illes Balears,86,0,Privados
+070388,Hospital Mateu Orfila,Illes Balears,142,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+070344,Hospital Quironsalud Palmaplanas,Illes Balears,169,0,Privados
+070423,Hospital Quironsalud Son Veri,Illes Balears,34,0,Privados
+070333,Hospital Son Llatzer,Illes Balears,423,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+070399,Hospital Universitari Son Espases,Illes Balears,839,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+070366,Hospital de Formentera,Illes Balears,13,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+070412,Hospital de Llevant,Illes Balears,70,0,Privados
+070309,Hospital de Manacor,Illes Balears,224,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+070131,Juaneda Miramar,Illes Balears,197,0,Privados
+070064,Mutua Balear,Illes Balears,40,0,Mútuas Colaboradoras con La Seguridad Social
+070201,Policlínica Nuestra Sra. del Rosario,Illes Balears,68,0,Privados
+260109,Clínica Los Manzanos,La Rioja,52,0,Privados
+260099,Fundacion Hospital Calahorra,La Rioja,80,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+260027,Hospital Universitario San Pedro,La Rioja,522,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+260048,Hospital de La Rioja,La Rioja,68,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281087,Clínica Cemtro,Madrid,100,0,Privados
+280534,"Clínica La Luz, S.L.",Madrid,152,0,Privados
+281393,Clínica Universidad de Navarra,Madrid,72,0,Privados
+281467,"HM Hospitales 1.989, S.A.",Madrid,51,0,Privados
+281491,"HM Hospitales 1989, S.A.",Madrid,90,0,Privados
+280360,Hospital Beata Maria Ana,Madrid,163,0,Privados
+280724,Hospital Central de La Defensa Gómez Ulla,Madrid,475,1,Ministerio de Defensa
+280920,Hospital El Escorial,Madrid,92,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280549,Hospital Fuensanta,Madrid,20,0,Privados
+280246,Hospital General Universitario Gregorio Marañón,Madrid,1140,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281359,Hospital General de Villalba,Madrid,217,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281049,Hospital Ha Universitario Moncloa,Madrid,235,0,Privados
+280587,Hospital La Milagrosa S.A.,Madrid,142,0,Privados
+281180,Hospital Los Madroños,Madrid,53,0,Privados
+280474,Hospital Nuestra Señora de América,Madrid,100,0,Privados
+281247,Hospital Pardo de Aravaca,Madrid,88,0,Privados
+280357,Hospital Quironsalud San José,Madrid,84,0,Privados
+281124,Hospital Quironsalud Sur,Madrid,81,0,Privados
+281456,Hospital Quirón Salud Valle del Henares,Madrid,79,0,Privados
+280565,Hospital Ruber Internacional,Madrid,143,0,Privados
+280552,Hospital Ruber Juan Bravo,Madrid,146,0,Privados
+280468,Hospital San Camilo,Madrid,81,0,Privados
+280382,Hospital San Francisco de Asís,Madrid,168,0,Privados
+280339,Hospital San Rafael,Madrid,184,0,Privados
+280035,Hospital Universitario 12 de Octubre,Madrid,1161,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280072,Hospital Universitario Clínico San Carlos,Madrid,861,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281071,Hospital Universitario Fundacion Alcorcón,Madrid,401,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280421,Hospital Universitario Fundacion Jimenez Diaz,Madrid,651,0,Privados
+280954,Hospital Universitario HM Madrid,Madrid,99,0,Privados
+281090,Hospital Universitario HM Monteprincipe,Madrid,170,0,Privados
+281360,Hospital Universitario HM Puerta del Sur,Madrid,182,0,Privados
+281225,Hospital Universitario HM Sanchinarro,Madrid,198,0,Privados
+281157,Hospital Universitario HM Torrelodones,Madrid,86,0,Privados
+281304,Hospital Universitario Infanta Cristina,Madrid,188,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281236,Hospital Universitario Infanta Elena,Madrid,186,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281270,Hospital Universitario Infanta Leonor,Madrid,269,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281258,Hospital Universitario Infanta Sofia,Madrid,276,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281179,Hospital Universitario La Moraleja,Madrid,121,0,Privados
+280014,Hospital Universitario La Paz,Madrid,966,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280604,Hospital Universitario La Zarzuela,Madrid,116,0,Privados
+280745,Hospital Universitario Príncipe de Asturias,Madrid,507,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281315,Hospital Universitario Puerta de Hierro Majadahonda,Madrid,613,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281203,Hospital Universitario Quironsalud Madrid,Madrid,278,0,Privados
+280029,Hospital Universitario Ramon y Cajal,Madrid,886,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280112,Hospital Universitario Santa Cristina,Madrid,156,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280838,Hospital Universitario Severo Ochoa,Madrid,386,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281146,Hospital Universitario de Fuenlabrada,Madrid,413,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280989,Hospital Universitario de Getafe,Madrid,543,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280127,Hospital Universitario de La Princesa,Madrid,524,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280894,Hospital Universitario de Móstoles,Madrid,328,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281337,Hospital Universitario de Torrejón,Madrid,250,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281269,Hospital Universitario del Henares,Madrid,249,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281281,Hospital Universitario del Sureste,Madrid,132,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+281292,Hospital Universitario del Tajo,Madrid,102,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280442,Hospital Virgen del Mar,Madrid,73,0,Privados
+281348,ID Dalud Móstoles Sa,Madrid,362,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+280323,Sanatorio Nuestra Señora del Rosario,Madrid,99,0,Privados
+520018,Hospital Comarcal,Melilla,168,1,Instituto de Gestión Sanitaria-Ingesa
+480123,"Clínica Guimon, S.A.",País Vasco,42,0,Privados
+480316,Clínica Imq Zorrotzaurre,País Vasco,128,0,Privados
+480160,"Clínica Indautxu, S.A.",País Vasco,36,0,Privados
+200219,Clínica Santa Maria de La Asunción (Inviza S. A.),País Vasco,120,0,Privados
+480097,Clínica Virgen Blanca,País Vasco,74,0,Privados
+200163,Hospital Bidasoa (Osi Bidasoa),País Vasco,96,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+480046,Hospital Cruz Roja de Bilbao - Victoria Eugenia,País Vasco,68,0,Organizaciones No Gubernamentales
+480209,Hospital Galdakao-Usansolo,País Vasco,481,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+480305,Hospital Quironsalud Bizkaia,País Vasco,110,0,Privados
+010053,Hospital Quironsalud Vitoria,País Vasco,26,0,Privados
+480182,Hospital San Eloy,País Vasco,128,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+480255,Hospital San Juan de Dios,País Vasco,100,0,Organizaciones No Gubernamentales
+010090,Hospital Universitario Araba (Sede Txagorritxu y Sede Santiago),País Vasco,806,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+480078,Hospital Universitario Basurto,País Vasco,697,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+480176,Hospital Universitario Cruces,País Vasco,981,1,Otros Centros o Establecimientos Públicos de Dependencia Estatal
+200261,Hospital Universitario Donostia,País Vasco,1034,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+480327,Hospital Urduliz Ospitalea,País Vasco,128,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+010040,Hospital Vithas Vitoria,País Vasco,68,0,Privados
+200258,Hospital de Mendaro (Osi Bajo Deba),País Vasco,111,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+200245,Hospital de Zumarraga (Osi Goierri - Alto Urola),País Vasco,118,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+200185,Organización Sanitaria Integrada Debagoiena,País Vasco,95,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+200104,Policlínica Gipuzkoa,País Vasco,149,0,Privados
+480059,Sanatorio Bilbaíno,País Vasco,44,0,Organizaciones No Gubernamentales
+330061,Centro Medico de Asturias,Ppdo. de Asturias,105,0,Privados
+330077,Clínica Asturias,Ppdo. de Asturias,46,0,Privados
+330208,Hospital Begoña,Ppdo. de Asturias,41,0,Privados
+330138,Hospital Carmen y Severo Ochoa,Ppdo. de Asturias,103,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+330175,Hospital Covadonga,Ppdo. de Asturias,24,0,Privados
+330169,Hospital Cruz Roja Gijón,Ppdo. de Asturias,120,0,Privados
+330292,Hospital Universitario Central de Asturias,Ppdo. de Asturias,991,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+330100,Hospital Universitario San Agustín,Ppdo. de Asturias,436,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+330156,Hospital Universitario de Cabueñes,Ppdo. de Asturias,457,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+330241,Hospital Valle del Nalon,Ppdo. de Asturias,216,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+330325,Hospital Vital Alvarez Buylla,Ppdo. de Asturias,176,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+330143,Hospital de Jarrio,Ppdo. de Asturias,116,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+330194,Hospital de Jove,Ppdo. de Asturias,233,0,Privados
+330306,Hospital del Oriente de Asturias Francisco Grande Covian,Ppdo. de Asturias,90,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300011,Hospital Clínico Universitario Virgen de La Arrixaca,Región de Murcia,937,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300124,Hospital Comarcal del Noroeste,Región de Murcia,115,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300269,Hospital G. Universitario J.M. Morales Meseguer,Región de Murcia,394,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300222,Hospital General Universitario Los Arcos del Mar Menor,Región de Murcia,255,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300026,Hospital General Universitario Reina Sofia,Región de Murcia,346,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300362,Hospital General Universitario Santa Lucia,Región de Murcia,667,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300079,Hospital La Vega Grupo Ha,Región de Murcia,142,0,Privados
+300050,Hospital Quironsalud Murcia,Región de Murcia,131,0,Privados
+300256,Hospital Rafael Méndez,Región de Murcia,287,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300145,Hospital Santa Maria del Rosell,Región de Murcia,41,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300243,Hospital Virgen del Castillo,Región de Murcia,98,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
+300281,Hospital de La Vega Lorenzo Guirao,Región de Murcia,124,1,Servicios e Institutos de Salud de Las Comunidades Autónomas
