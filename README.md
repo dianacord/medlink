@@ -6,6 +6,8 @@ El paciente responde una encuesta corta cada 14 días y sube sus analíticas. El
 
 > **Prototipo · datos sintéticos · no usar con pacientes reales.** No se conecta a ningún sistema del hospital. Todo se guarda en el navegador (localStorage e IndexedDB).
 
+**Demo publicada:** https://medlink-lilac.vercel.app · QR en `docs/qr-medlink.png` (y `.svg` para imprimir).
+
 ## Arrancar
 
 ```bash
@@ -21,6 +23,7 @@ Otros comandos:
 | `npm run build` | Comprobación de tipos y build de producción en `dist/` |
 | `npm run datos` | Regenera `data/*.json` a partir de los CSV del hackathon (en `~/data`) |
 | `npm run pdfs` | Regenera los 3 PDFs de ejemplo en `public/ejemplos/` |
+| `npx vercel --prod` | Publica una versión nueva en https://medlink-lilac.vercel.app |
 
 ## Usuarios de prueba
 
