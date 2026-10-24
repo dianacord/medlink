@@ -3,7 +3,6 @@ import { Navigate, NavLink, Outlet, useLocation, useNavigate } from 'react-route
 import { BarChart3, Bell, CalendarDays, House, LogOut, Search, type LucideIcon } from 'lucide-react'
 import { Fondo } from './Fondo'
 import { Marca, PieDemo } from './Marca'
-import { ModoPrueba } from './ModoPrueba'
 import { useEstado } from '../datos/almacen'
 import { avisosPendientes, citasDe, estadoCita, paciente } from '../datos/modelo'
 import { cerrarSesion, useUsuario } from '../datos/sesion'
@@ -134,7 +133,6 @@ export function LayoutMedico() {
           <BotonSalir />
         </header>
         <main className="mx-auto w-full max-w-5xl flex-1 px-4 pt-4 pb-6 md:px-8 md:pt-6">
-          <ModoPrueba rol="medico" />
           <Outlet />
         </main>
         <div className="pb-20 md:pb-0">
@@ -176,7 +174,6 @@ export function LayoutPaciente() {
         <BotonSalir />
       </header>
       <main className="w-full max-w-md flex-1 pt-4 pb-6">
-        <ModoPrueba rol="paciente" />
         <Outlet />
       </main>
       <div className="pb-20">

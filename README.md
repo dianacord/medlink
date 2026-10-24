@@ -36,14 +36,14 @@ La contraseña de todos es `demo1234`. En la portada, **"Prueba rápida, sin con
 | `javier@demo.es` | Javier Moreno: aviso de prioridad alta |
 | `antonio@demo.es` | Antonio Fernández: discapacidad visual, ve la app con letra grande |
 
-Dentro de la app, la barra **"Ver como médico / Ver como paciente"** cambia de rol sin cerrar sesión, para probar el ciclo completo en un solo móvil.
+Para cambiar de rol, **Cerrar sesión** vuelve a la portada; los datos de prueba del móvil se conservan.
 
 ## Recorrido para el demo
 
 1. Entra como **paciente** (Ana) y responde la encuesta: más deposiciones y sangre en heces.
-2. Pulsa **Ver como médico**: el aviso de Ana aparece arriba en la bandeja, con prioridad alta.
+2. **Cierra sesión** y entra con **Soy médico**: el aviso de Ana aparece arriba en la bandeja, con prioridad alta.
 3. Abre el aviso y propón una **cita telefónica**.
-4. **Ver como paciente**: Ana tiene una propuesta de cita y la acepta.
+4. Cierra sesión y entra con **Soy paciente**: Ana tiene una propuesta de cita y la acepta.
 5. En la app del médico, registra el resultado de la llamada como **Estable**: el aviso se archiva y sube el contador de **Impacto**.
 
 También se puede probar:
