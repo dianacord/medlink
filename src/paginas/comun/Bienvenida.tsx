@@ -42,6 +42,10 @@ export default function Bienvenida() {
           <p className="mt-2 text-xs text-gris">Cada móvil tiene sus propios datos de prueba.</p>
         </section>
       </main>
+      <footer className="flex w-full max-w-md flex-col items-center gap-2 border-t border-gris-claro pt-5">
+        <p className="text-xs text-gris">Proyecto del hackathon Innomakers 4 Health 2026</p>
+        <img src="/marcas/la-princesa.png" alt="Hospital Universitario de La Princesa · SaludMadrid" className="h-10 w-auto mix-blend-multiply" />
+      </footer>
       <PieDemo />
     </div>
   )

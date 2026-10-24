@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom'
 /** Logotipo de Medlink. */
 export function Marca({ to = '/' }: { to?: string }) {
   return (
-    <Link to={to} className="inline-flex items-center gap-2 text-lg font-bold tracking-tight text-marino">
-      <img src="/favicon.svg" alt="" className="size-8" />
-      Medlink
+    <Link to={to} className="inline-flex items-center">
+      <img src="/marcas/medlink.png" alt="Medlink" className="h-8 w-auto" />
     </Link>
   )
 }
