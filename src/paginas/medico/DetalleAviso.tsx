@@ -19,7 +19,8 @@ import {
 import { fechaConDia, fechaCorta, haceTiempo, hora, num } from '../../logica/formato'
 import { citaRecomendada, CONTACTO, nombreCompleto, sexoTexto, ACCESIBILIDAD } from '../../logica/paciente'
 import { chipsDe, fueraDeRango, objetivoTexto } from '../../logica/puntuacion'
-import { aplicaPregunta } from '../../logica/preguntas'
+import { aplicaPregunta, valorRespuesta } from '../../logica/preguntas'
+import { nombreCortoProm, PROMS, totalProm } from '../../config/proms'
 import type { Aviso, Paciente, SeguimientoVersion, TipoCita } from '../../types'
 import { ProgramarCita } from './ProgramarCita'
 
@@ -120,8 +121,17 @@ function RespuestasPaciente({ estado, aviso, seg, p }: { estado: Estado; aviso: 
   const anterior = respuestas.at(-2)
   const motivos = actualizacionesDe(estado, aviso.id).at(-1)!.motivos
   const peticiones = estado.peticiones.filter((x) => x.pacienteId === p.id && x.fecha >= aviso.creadoEn)
-  const valor = (v: number | boolean | undefined, tipo: string, unidad?: string) =>
-    v === undefined ? '—' : typeof v === 'boolean' ? (v ? 'Sí' : 'No') : `${v}${tipo === 'escala' ? '/10' : (unidad ?? '')}`
+  // Cada pregunta se compara con la última vez que la respondió (no todas van en cada encuesta).
+  const antes = (id: string) => respuestas.slice(0, -1).findLast((r) => r.respuestas[id] !== undefined)?.respuestas[id]
+  const filas = ultima ? seg.preguntas.filter((q) => aplicaPregunta(q, p) && ultima.respuestas[q.id] !== undefined) : []
+  const totales = ultima
+    ? PROMS.filter((prom) => prom.corte).flatMap((prom) => {
+        const ahora = totalProm(prom, seg.preguntas, ultima.respuestas)
+        if (ahora === undefined) return []
+        const previa = respuestas.slice(0, -1).map((r) => totalProm(prom, seg.preguntas, r.respuestas)).findLast((t) => t !== undefined)
+        return [{ prom, ahora, previa, alterado: motivos.some((m) => m.refId === prom.id) }]
+      })
+    : []
 
   return (
     <Tarjeta>
@@ -144,18 +154,25 @@ function RespuestasPaciente({ estado, aviso, seg, p }: { estado: Estado; aviso: 
                 </tr>
               </thead>
               <tbody className="divide-y divide-gris-claro">
-                {seg.preguntas
-                  .filter((q) => aplicaPregunta(q, p))
-                  .map((q) => {
-                    const destacada = motivos.some((m) => m.refId === q.id)
-                    return (
-                      <tr key={q.id} className={destacada ? 'font-semibold text-alta' : ''}>
-                        <td className="py-2 pr-2">{q.tipo === 'si_no' ? q.texto : q.etiqueta}</td>
-                        <td className="px-2 py-2 text-right whitespace-nowrap text-gris">{valor(anterior?.respuestas[q.id], q.tipo, q.unidad)}</td>
-                        <td className="py-2 text-right whitespace-nowrap">{valor(ultima.respuestas[q.id], q.tipo, q.unidad)}</td>
-                      </tr>
-                    )
-                  })}
+                {filas.map((q) => {
+                  const destacada = motivos.some((m) => m.refId === q.id)
+                  return (
+                    <tr key={q.id} className={destacada ? 'font-semibold text-alta' : ''}>
+                      <td className="py-2 pr-2">{q.tipo === 'si_no' ? q.texto : q.etiqueta}</td>
+                      <td className="px-2 py-2 text-right whitespace-nowrap text-gris">{valorRespuesta(q, antes(q.id))}</td>
+                      <td className="py-2 text-right whitespace-nowrap">{valorRespuesta(q, ultima.respuestas[q.id])}</td>
+                    </tr>
+                  )
+                })}
+                {totales.map(({ prom, ahora, previa, alterado }) => (
+                  <tr key={prom.id} className={`bg-primario-suave/50 font-semibold ${alterado ? 'text-alta' : ''}`}>
+                    <td className="py-2 pr-2 pl-2">
+                      Total {nombreCortoProm(prom)} <span className="font-normal text-gris">· corte {prom.corte!.alertaSi === 'menor' ? '<' : '≥'} {prom.corte!.valor}</span>
+                    </td>
+                    <td className="px-2 py-2 text-right text-gris">{previa ?? '—'}</td>
+                    <td className="py-2 pr-2 text-right">{ahora}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </div>

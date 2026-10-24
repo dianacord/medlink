@@ -34,6 +34,10 @@ function textoEstado(estado: EstadoPaciente, encuestaPendiente: boolean): { icon
   }
 }
 
+/** "a, b y c" */
+const lista = (xs: string[]) => (xs.length > 1 ? `${xs.slice(0, -1).join(', ')} y ${xs.at(-1)}` : (xs[0] ?? ''))
+const minusculas = (nombre: string) => (/^[A-Z][a-z]/.test(nombre) ? nombre[0].toLowerCase() + nombre.slice(1) : nombre)
+
 function Confirmado({ children }: { children: string }) {
   return (
     <li className="flex items-center gap-2 text-sm text-gris">
@@ -115,7 +119,9 @@ export default function Inicio() {
         )}
         {vista.analiticaToca ? (
           <Boton icono={Upload} to="/paciente/analitica" variante="secundario">
-            Toca analítica: súbela aquí
+            {vista.parametrosQueTocan.length
+              ? `Toca analítica: ${lista(vista.parametrosQueTocan.map((p) => minusculas(p.nombre)))}`
+              : 'Toca analítica: súbela aquí'}
           </Boton>
         ) : (
           <p className="flex items-center gap-3 rounded-[20px] bg-white p-4 ring-1 ring-gris-claro">

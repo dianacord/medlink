@@ -1,9 +1,10 @@
 // Lo único que el paciente ve de su seguimiento. Nunca incluye puntuaciones,
 // prioridades, motivos ni el historial: solo tareas, estado neutro y sus citas.
 
-import { encuestaPendiente, proximaAnalitica, proximaEncuesta } from '../logica/calendario'
+import { encuestaPendiente, preguntasDelPeriodo, proximaEncuesta, proximasAnaliticas } from '../logica/calendario'
 import { DIA_MS } from '../logica/formato'
-import { avisoAbierto, citasDe, estadoAviso, estadoCita, seguimientoActual, type Estado } from './modelo'
+import { aplicaPregunta } from '../logica/preguntas'
+import { avisoAbierto, citasDe, estadoAviso, estadoCita, paciente, seguimientoActual, type Estado } from './modelo'
 
 /** Días de margen para avisar de que toca hacerse la analítica. */
 const AVISO_ANALITICA_DIAS = 7
@@ -33,14 +34,21 @@ export function vistaPaciente(e: Estado, pacienteId: string, ahora = Date.now())
   else estado = { tipo: 'todo_bien', proximaEncuesta: proxima }
 
   const ultimaFecha = <T extends { fecha: string }>(xs: T[]) => xs.map((x) => x.fecha).sort().at(-1)
-  const analitica = proximaAnalitica(seg, mediciones)
+  const periodo = encuestaPendiente(seg, respuestas, ahora)
+  const yo = paciente(e, pacienteId)!
+  const analiticas = proximasAnaliticas(seg, mediciones)
+  const primera = analiticas[0]?.fecha ?? Infinity
   return {
     seg,
     estado,
-    encuestaPendiente: !!encuestaPendiente(seg, respuestas, ahora),
+    encuestaPendiente: !!periodo,
+    /** Preguntas de la encuesta pendiente: las que tocan en este periodo y aplican al paciente. */
+    preguntasEncuesta: periodo ? preguntasDelPeriodo(seg, periodo).filter((q) => aplicaPregunta(q, yo)) : [],
     proximaEncuesta: proxima,
-    analiticaToca: analitica - ahora < AVISO_ANALITICA_DIAS * DIA_MS,
-    proximaAnalitica: new Date(analitica).toISOString(),
+    analiticaToca: primera - ahora < AVISO_ANALITICA_DIAS * DIA_MS,
+    /** Parámetros que vencen en los próximos días ("Toca analítica: calprotectina y PCR"). */
+    parametrosQueTocan: analiticas.filter((a) => a.fecha - ahora < AVISO_ANALITICA_DIAS * DIA_MS).map((a) => a.parametro),
+    proximaAnalitica: new Date(Number.isFinite(primera) ? primera : ahora).toISOString(),
     ultimaEncuesta: ultimaFecha(respuestas),
     ultimaAnaliticaSubida: e.documentos
       .filter((d) => d.pacienteId === pacienteId && d.origen === 'pdf_paciente')

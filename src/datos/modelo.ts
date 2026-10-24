@@ -28,7 +28,7 @@ import { evaluar } from '../logica/puntuacion'
 import { hayAlarmaEnTexto } from '../logica/textoLibre'
 import { describirCambios } from '../logica/seguimiento'
 
-export const ESQUEMA = 1
+export const ESQUEMA = 2
 
 export interface Estado {
   esquema: number

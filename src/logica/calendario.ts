@@ -1,4 +1,4 @@
-import type { Medicion, RespuestaEncuesta, SeguimientoVersion } from '../types'
+import type { Medicion, Parametro, Pregunta, RespuestaEncuesta, SeguimientoVersion } from '../types'
 import { DIA_MS } from './formato'
 
 export interface PeriodoEncuesta {
@@ -39,8 +39,34 @@ export function proximaEncuesta(seg: SeguimientoVersion, respuestas: RespuestaEn
   return actual ? actual.hasta : Date.parse(seg.fechaInicio)
 }
 
-/** Fecha en que toca la próxima analítica (la última más la frecuencia). */
+/** Si algo que empieza en `inicio` y se repite cada `dias` vence dentro de [desde, hasta). */
+function venceEntre(inicio: number, dias: number, desde: number, hasta: number) {
+  const paso = dias * DIA_MS
+  const n = Math.max(0, Math.ceil((desde - inicio) / paso))
+  return inicio + n * paso < hasta
+}
+
+/**
+ * Preguntas que tocan en un periodo de encuesta: las que vencen en él según su frecuencia,
+ * más las señales de alarma, que van siempre.
+ */
+export function preguntasDelPeriodo(seg: SeguimientoVersion, periodo: Pick<PeriodoEncuesta, 'desde' | 'hasta'>): Pregunta[] {
+  const inicio = Date.parse(seg.fechaInicio)
+  return seg.preguntas.filter((q) => q.frecuenciaDias === undefined || venceEntre(inicio, q.frecuenciaDias, periodo.desde, periodo.hasta))
+}
+
+/** Cuándo toca cada parámetro: su última medición (o el inicio) más su frecuencia. Ordenado por fecha. */
+export function proximasAnaliticas(seg: SeguimientoVersion, mediciones: Medicion[]): { parametro: Parametro; fecha: number }[] {
+  const inicio = Date.parse(seg.fechaInicio)
+  return seg.parametros
+    .map((parametro) => {
+      const ultima = Math.max(inicio, ...mediciones.filter((m) => m.parametroId === parametro.id).map((m) => Date.parse(m.fecha)))
+      return { parametro, fecha: ultima + parametro.frecuenciaDias * DIA_MS }
+    })
+    .sort((a, b) => a.fecha - b.fecha)
+}
+
+/** Fecha en que toca la próxima analítica (el primer parámetro que vence). */
 export function proximaAnalitica(seg: SeguimientoVersion, mediciones: Medicion[]): number {
-  const ultima = Math.max(Date.parse(seg.fechaInicio), ...mediciones.map((m) => Date.parse(m.fecha)))
-  return ultima + seg.frecuenciaAnaliticaSemanas * 7 * DIA_MS
+  return proximasAnaliticas(seg, mediciones)[0]?.fecha ?? Date.parse(seg.fechaInicio) + seg.frecuenciaAnaliticaSemanas * 7 * DIA_MS
 }

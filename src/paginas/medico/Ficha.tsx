@@ -25,6 +25,7 @@ import { encuestaPendiente, proximaAnalitica, proximaEncuesta } from '../../logi
 import { fechaConDia, fechaCorta, fechaLarga, hora } from '../../logica/formato'
 import { ACCESIBILIDAD, CONTACTO, nombreCompleto, sexoTexto } from '../../logica/paciente'
 import { objetivoTexto } from '../../logica/puntuacion'
+import { nombreCortoProm, promsActivos, textoFrecuencia, totalProm } from '../../config/proms'
 import type { Paciente, SeguimientoVersion } from '../../types'
 
 type Vista = 'resumen' | 'evolucion' | 'encuestas' | 'historial'
@@ -73,8 +74,8 @@ function Resumen({ estado, p, seg }: { estado: Estado; p: Paciente; seg?: Seguim
           <Dato etiqueta="Versión">
             {seg.version} · desde {fechaCorta(seg.creadoEn)}
           </Dato>
-          <Dato etiqueta="Analítica">Cada {seg.frecuenciaAnaliticaSemanas} semanas</Dato>
-          <Dato etiqueta="Encuesta">Cada {seg.frecuenciaEncuestaDias} días</Dato>
+          <Dato etiqueta="Encuesta">{textoFrecuencia(seg.frecuenciaEncuestaDias)}</Dato>
+          <Dato etiqueta="Cuestionarios">{promsActivos(seg).length} activos</Dato>
           <Dato etiqueta="Próxima encuesta">{pendiente ? 'Pendiente ahora' : fechaCorta(new Date(proximaEncuesta(seg, respuestas, ahora)).toISOString())}</Dato>
           <Dato etiqueta="Próxima analítica">{fechaCorta(new Date(proximaAnalitica(seg, mediciones)).toISOString())}</Dato>
           <Dato etiqueta="Fin">{fechaLarga(seg.fechaFin)}</Dato>
@@ -98,14 +99,20 @@ function Resumen({ estado, p, seg }: { estado: Estado; p: Paciente; seg?: Seguim
             {seg.parametros.map((par) => (
               <li key={par.id} className="flex justify-between gap-3">
                 <span>{par.nombre}</span>
-                <span className="text-gris">
-                  {objetivoTexto(par)} {par.unidad}
+                <span className="text-right text-gris">
+                  {objetivoTexto(par)} {par.unidad} · {textoFrecuencia(par.frecuenciaDias).toLowerCase()}
                 </span>
+              </li>
+            ))}
+            {promsActivos(seg).map(({ prom, frecuencia }) => (
+              <li key={prom.id} className="flex justify-between gap-3">
+                <span>{nombreCortoProm(prom)}</span>
+                <span className="text-gris">{textoFrecuencia(frecuencia).toLowerCase()}</span>
               </li>
             ))}
           </ul>
           <p className="mt-3 text-sm text-gris">
-            {seg.preguntas.length} preguntas en la encuesta · {seg.preguntas.filter((q) => q.alarma).length} señales de alarma
+            {seg.preguntas.filter((q) => !q.prom && !q.alarma).length} preguntas propias · {seg.preguntas.filter((q) => q.alarma).length} señales de alarma (siempre)
           </p>
         </Tarjeta>
       </div>
@@ -115,7 +122,8 @@ function Resumen({ estado, p, seg }: { estado: Estado; p: Paciente; seg?: Seguim
 
 function Evolucion({ estado, p, seg }: { estado: Estado; p: Paciente; seg: SeguimientoVersion }) {
   const respuestas = estado.respuestas.filter((r) => r.pacienteId === p.id)
-  const numericas = seg.preguntas.filter((q) => q.tipo !== 'si_no')
+  const numericas = seg.preguntas.filter((q) => q.tipo === 'escala' || q.tipo === 'numero')
+  const conTotal = promsActivos(seg).filter(({ prom }) => prom.corte)
   return (
     <div className="space-y-6">
       <div className="grid gap-5 md:grid-cols-2">
@@ -134,10 +142,26 @@ function Evolucion({ estado, p, seg }: { estado: Estado; p: Paciente; seg: Segui
           </Tarjeta>
         ))}
       </div>
-      {numericas.length > 0 && (
+      {(numericas.length > 0 || conTotal.length > 0) && (
         <>
           <h2 className="text-lg font-bold">Síntomas</h2>
           <div className="grid gap-5 md:grid-cols-2">
+            {conTotal.map(({ prom }) => (
+              <Tarjeta key={prom.id}>
+                <p className="font-bold">{nombreCortoProm(prom)}</p>
+                <p className="mb-2 text-sm text-gris">
+                  Puntuación total · {prom.corte!.texto} si {prom.corte!.alertaSi === 'menor' ? '<' : '≥'} {prom.corte!.valor}
+                </p>
+                <Grafico
+                  puntos={respuestas.flatMap((r) => {
+                    const total = totalProm(prom, seg.preguntas, r.respuestas)
+                    return total === undefined ? [] : [{ fecha: r.fecha, valor: total }]
+                  })}
+                  {...(prom.corte!.alertaSi === 'menor' ? { min: prom.corte!.valor } : { max: prom.corte!.valor })}
+                  alto={80}
+                />
+              </Tarjeta>
+            ))}
             {numericas.map((q) => (
               <Tarjeta key={q.id}>
                 <p className="font-bold">{q.etiqueta}</p>

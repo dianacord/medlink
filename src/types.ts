@@ -59,9 +59,11 @@ export interface Parametro {
   reglas: TipoRegla[]
   /** Otros nombres con los que aparece en un informe de laboratorio (lectura de PDF). */
   sinonimos: string[]
+  /** Cada cuántos días se pide (ver FRECUENCIAS). */
+  frecuenciaDias: number
 }
 
-export type TipoPregunta = 'escala' | 'si_no' | 'numero'
+export type TipoPregunta = 'escala' | 'si_no' | 'numero' | 'opciones'
 
 export interface Pregunta {
   id: string
@@ -85,6 +87,12 @@ export interface Pregunta {
   peso?: number
   /** Solo se pregunta a pacientes que cumplan esto. */
   condicion?: { sexo?: Sexo; edadMin?: number; edadMax?: number }
+  /** opciones: respuestas posibles. Se guarda el índice; los puntos suman al total del PROM. */
+  opciones?: { texto: string; puntos: number }[]
+  /** PROM al que pertenece (ver config/proms.ts). Sin PROM = pregunta propia del médico. */
+  prom?: string
+  /** Cada cuántos días se pregunta. Las señales de alarma no tienen: van siempre. */
+  frecuenciaDias?: number
 }
 
 export interface Plantilla {
@@ -182,6 +190,7 @@ export type TipoMotivo =
   | 'palabra_clave'
   | 'peticion_revision'
   | 'analitica_sin_detectar'
+  | 'prom_alterado'
 
 export interface Motivo {
   tipo: TipoMotivo

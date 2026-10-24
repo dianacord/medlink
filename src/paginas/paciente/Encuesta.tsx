@@ -8,7 +8,6 @@ import { paciente as buscarPaciente, registrarRespuesta } from '../../datos/mode
 import { useUsuario } from '../../datos/sesion'
 import { vistaPaciente } from '../../datos/vistaPaciente'
 import { fechaConDia } from '../../logica/formato'
-import { aplicaPregunta } from '../../logica/preguntas'
 import type { Pregunta, ValorRespuesta } from '../../types'
 
 /** Si esta respuesta es una señal de alarma (manda a Urgencias). */
@@ -54,6 +53,22 @@ function SiNo({ valor, onElegir }: { valor?: ValorRespuesta; onElegir: (v: boole
   )
 }
 
+function Opciones({ q, valor, onElegir }: { q: Pregunta; valor?: ValorRespuesta; onElegir: (v: number) => void }) {
+  return (
+    <div className="space-y-2.5">
+      {q.opciones?.map((o, i) => (
+        <button
+          key={o.texto}
+          onClick={() => onElegir(i)}
+          className={`flex min-h-16 w-full items-center rounded-[20px] px-5 py-3 text-left text-lg font-semibold ring-1 transition ${valor === i ? 'bg-primario text-white ring-primario' : 'bg-white text-marino ring-gris-claro hover:ring-primario'}`}
+        >
+          {o.texto}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 function Numero({ q, inicial, onElegir }: { q: Pregunta; inicial: number; onElegir: (v: number) => void }) {
   const [n, setN] = useState(inicial)
   return (
@@ -91,7 +106,7 @@ export default function Encuesta() {
   const [enviada, setEnviada] = useState(false)
 
   if (!vistaInicial) return null
-  const preguntas = vistaInicial.seg.preguntas.filter((q) => aplicaPregunta(q, yo))
+  const preguntas = vistaInicial.preguntasEncuesta
   const ultima = estado.respuestas.filter((r) => r.pacienteId === yo.id).sort((a, b) => a.fecha.localeCompare(b.fecha)).at(-1)
 
   /** Guarda la encuesta. Devuelve si hay que mandar al paciente a Urgencias. */
@@ -185,6 +200,7 @@ export default function Encuesta() {
           <div className="mt-8">
             {q.tipo === 'escala' && <Escala q={q} valor={respuestas[q.id]} onElegir={(v) => responder(q, v)} />}
             {q.tipo === 'si_no' && <SiNo valor={respuestas[q.id]} onElegir={(v) => responder(q, v)} />}
+            {q.tipo === 'opciones' && <Opciones q={q} valor={respuestas[q.id]} onElegir={(v) => responder(q, v)} />}
             {q.tipo === 'numero' && <Numero q={q} inicial={(respuestas[q.id] as number | undefined) ?? anteriorNumero} onElegir={(v) => responder(q, v)} />}
           </div>
         </div>

@@ -1,6 +1,7 @@
 // Priorización de avisos por reglas. Es interna: el médico solo ve la prioridad y los motivos.
 
 import { ENCUESTAS_SEGUIDAS_SIN_RESPONDER, MEDICIONES_TENDENCIA, PESOS, UMBRALES_PRIORIDAD } from '../config/prioridad'
+import { nombreCortoProm, PROMS, totalProm } from '../config/proms'
 import type {
   Documento,
   Medicion,
@@ -106,12 +107,12 @@ function motivosEncuesta(e: Entrada): Motivo[] {
   const rs = enOrden(e.respuestas, e.ahora)
   const ultima = rs.at(-1)
   if (!ultima || Date.parse(ultima.fecha) <= e.desde) return []
-  const anterior = rs.at(-2)
   const motivos: Motivo[] = []
 
   for (const q of e.seg.preguntas) {
     const v = ultima.respuestas[q.id]
-    if (v === undefined) continue
+    // Las preguntas de opciones cuentan en el total de su PROM (motivosProms), no una a una.
+    if (v === undefined || q.tipo === 'opciones') continue
     if (q.tipo === 'si_no') {
       if (v !== q.respuestaAlerta) continue
       motivos.push(
@@ -130,7 +131,8 @@ function motivosEncuesta(e: Entrada): Motivo[] {
           : { tipo: 'sintoma_umbral', texto: `${q.etiqueta} ${v}${unidad}`, puntos: q.peso ?? PESOS.sintomaUmbral, refId: q.id },
       )
     }
-    const antes = anterior?.respuestas[q.id]
+    // Se compara con la última vez que respondió esta pregunta (no todas van en cada encuesta).
+    const antes = rs.slice(0, -1).findLast((r) => r.respuestas[q.id] !== undefined)?.respuestas[q.id]
     if (typeof antes === 'number' && v - antes >= (q.cambioRelevante ?? 1)) {
       motivos.push({
         tipo: 'sintoma_empeora',
@@ -141,6 +143,22 @@ function motivosEncuesta(e: Entrada): Motivo[] {
     }
   }
   if (ultima.textoLibre) motivos.push(...motivosTexto(ultima.textoLibre))
+  return motivos
+}
+
+/** Total de cada PROM validado en su última respuesta completa; motivo si pasa el punto de corte. */
+function motivosProms(e: Entrada): Motivo[] {
+  const rs = enOrden(e.respuestas, e.ahora).filter((r) => Date.parse(r.fecha) > e.desde)
+  const motivos: Motivo[] = []
+  for (const prom of PROMS) {
+    if (!prom.corte) continue
+    const total = rs.map((r) => totalProm(prom, e.seg.preguntas, r.respuestas)).findLast((t) => t !== undefined)
+    if (total === undefined) continue
+    const { valor, alertaSi, texto } = prom.corte
+    if (alertaSi === 'mayor_o_igual' ? total >= valor : total < valor) {
+      motivos.push({ tipo: 'prom_alterado', texto: `${nombreCortoProm(prom)} ${total} · ${texto}`, puntos: PESOS.promAlterado, refId: prom.id })
+    }
+  }
   return motivos
 }
 
@@ -188,7 +206,8 @@ export function tituloDe(motivos: Motivo[], parametros: Parametro[]): string {
   if (alterados.length === 1) return `Alteración de ${alterados[0]}`
   if (alterados.length === 2) return `Alteración de ${alterados[0]} y ${alterados[1]}`
   if (alterados.length > 2) return `Alteración de ${alterados[0]} y ${alterados.length - 1} parámetros más`
-  if (tipos.has('sintoma_umbral') || tipos.has('sintoma_empeora') || tipos.has('palabra_clave')) return 'Empeoramiento de síntomas'
+  if (tipos.has('sintoma_umbral') || tipos.has('sintoma_empeora') || tipos.has('palabra_clave') || tipos.has('prom_alterado'))
+    return 'Empeoramiento de síntomas'
   if (tipos.has('peticion_revision')) return 'Pide revisión'
   if (tipos.has('analitica_sin_detectar')) return 'Analítica externa para revisar'
   if (tipos.has('encuestas_sin_responder')) return 'Encuestas sin responder'
@@ -199,6 +218,7 @@ export function evaluar(e: Entrada): Evaluacion {
   const todos = [
     ...motivosParametros(e),
     ...motivosEncuesta(e),
+    ...motivosProms(e),
     ...motivosPaciente(e),
     ...motivosEncuestasSinResponder(e),
   ]

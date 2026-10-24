@@ -34,6 +34,8 @@ interface Caso {
   sintomas?: Sintomas
   /** Periodos (contando desde el actual = 0) sin responder. */
   sinResponder?: number[]
+  /** Periodos de historia si no son PERIODOS_PREVIOS. */
+  periodos?: number
   /** Respuesta del periodo actual, si difiere de la habitual. */
   ultima?: Partial<Sintomas> & { sangre?: boolean; textoLibre?: string }
 }
@@ -67,8 +69,9 @@ const CASOS: Record<string, Caso> = {
   },
   // BAJA: dejó de responder las dos últimas encuestas (y la actual sigue abierta).
   P0116240: { desfase: 6, ultimaAnalitica: 40, sinResponder: [0, 1, 2] },
-  // Paciente de prueba: todo bien y la encuesta vence hoy.
-  P0163423: { desfase: 0, ultimaAnalitica: 20, sinResponder: [0] },
+  // Paciente de prueba: todo bien y la encuesta vence hoy. Con 14 periodos, hoy le tocan
+  // también los PROMs mensuales (SCCAI e IBD-Control-8), para enseñarlos en la demo.
+  P0163423: { desfase: 0, ultimaAnalitica: 20, sinResponder: [0], periodos: 14 },
 }
 
 /** Analíticas estables: suben y bajan un poco, sin cruzar el objetivo ni encadenar 3 empeoramientos. */
@@ -95,7 +98,8 @@ export function generarCapaClinica(pacientes: Paciente[]): CapaClinica {
       desfase: 2 + Math.floor(r() * 11),
       ultimaAnalitica: 2 + Math.floor(r() * 40),
     }
-    const inicio = caso.desfase + PERIODOS_PREVIOS * FRECUENCIA
+    const periodos = caso.periodos ?? PERIODOS_PREVIOS
+    const inicio = caso.desfase + periodos * FRECUENCIA
     capa.seguimientos.push({ pacienteId: paciente.id, inicioDiasAtras: inicio })
 
     const analiticas = caso.analiticas ?? analiticasEstables(r, paciente.sexo)
@@ -119,16 +123,31 @@ export function generarCapaClinica(pacientes: Paciente[]): CapaClinica {
     const preguntas = PLANTILLA_COLITIS.preguntas.filter((p) => aplicaPregunta(p, paciente))
 
     // Periodo k vence hace (desfase + k * 14) días; se responde al día siguiente.
-    for (let k = PERIODOS_PREVIOS; k >= 0; k--) {
+    for (let k = periodos; k >= 0; k--) {
       if (caso.sinResponder?.includes(k)) continue
       const diasAtras = caso.desfase + k * FRECUENCIA - 1
       if (diasAtras < 0) continue
+      // Solo lo que tocaba en ese periodo (n contado desde el inicio): las alarmas siempre,
+      // lo quincenal en todos y lo mensual uno sí y otro no.
+      const n = periodos - k
+      const tocan = preguntas.filter((q) => q.frecuenciaDias === undefined || (n * FRECUENCIA) % q.frecuenciaDias < FRECUENCIA)
       const actual = k === 0 && caso.ultima ? caso.ultima : {}
       // Variación de como mucho 1 punto: nunca cuenta como empeorar (hace falta subir 2).
       const varia = (v: number) => v + (r() < 0.5 ? 0 : 1)
       const respuestas: Record<string, ValorRespuesta> = {}
-      for (const p of preguntas) {
-        if (p.id in base) {
+      // PROMs estables: la mejor opción en todo y, a veces, la segunda en una sola pregunta
+      // (SCCAI ≤ 1, IBD-Control-8 ≥ 15), así nunca pasan su punto de corte.
+      const opciones = tocan.filter((q) => q.tipo === 'opciones')
+      const segunda = new Set(
+        [...new Set(opciones.map((q) => q.prom))].flatMap((prom) => {
+          const qs = opciones.filter((q) => q.prom === prom)
+          return r() < 0.4 ? [qs[Math.floor(r() * qs.length)].id] : []
+        }),
+      )
+      for (const p of tocan) {
+        if (p.tipo === 'opciones') {
+          respuestas[p.id] = segunda.has(p.id) ? 1 : 0
+        } else if (p.id in base) {
           const clave = p.id as keyof Sintomas
           respuestas[p.id] = actual[clave] ?? (caso.sintomas ? base[clave] : varia(base[clave]))
         } else if (p.id === 'sangre') {

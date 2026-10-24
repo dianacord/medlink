@@ -1,6 +1,7 @@
 // Línea de tiempo de todo lo que ha pasado con un paciente. Solo la ve el médico.
 
 import type { Prioridad, RespuestaEncuesta, SeguimientoVersion } from '../types'
+import { nombreCortoProm, PROMS, totalProm } from '../config/proms'
 import { periodosEncuesta } from '../logica/calendario'
 import { num } from '../logica/formato'
 import { chipsDe } from '../logica/puntuacion'
@@ -41,9 +42,14 @@ export function resumenRespuestas(r: RespuestaEncuesta, seg: SeguimientoVersion 
   const partes: string[] = []
   for (const q of seg.preguntas) {
     const v = r.respuestas[q.id]
-    if (v === undefined) continue
+    // Las preguntas de opciones se resumen con el total de su PROM.
+    if (v === undefined || q.tipo === 'opciones') continue
     if (typeof v === 'number') partes.push(`${q.etiqueta} ${v}${q.tipo === 'escala' ? '/10' : (q.unidad ?? '')}`)
     else if (v === q.respuestaAlerta) partes.push(q.etiqueta)
+  }
+  for (const prom of PROMS.filter((x) => x.corte)) {
+    const total = totalProm(prom, seg.preguntas, r.respuestas)
+    if (total !== undefined) partes.push(`${nombreCortoProm(prom)} ${total}`)
   }
   return partes.join(' · ')
 }

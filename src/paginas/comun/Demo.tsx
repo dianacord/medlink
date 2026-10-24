@@ -47,12 +47,15 @@ function valorNormal(p: Parametro) {
 }
 const valorAlterado = (p: Parametro) => redondear(p.empeoraAl === 'subir' ? (p.max ?? valorNormal(p)) * 4 : (p.min ?? valorNormal(p)) * 0.85)
 
+// En las preguntas de opciones la primera es la mejor y la última la peor (ver config/proms.ts).
 function respuestaNormal(q: Pregunta): ValorRespuesta {
+  if (q.tipo === 'opciones') return 0
   if (q.tipo === 'si_no') return !q.respuestaAlerta
   return q.tipo === 'numero' ? 2 : 1
 }
 function respuestaPeor(q: Pregunta): ValorRespuesta {
   if (q.alarma || q.condicion) return respuestaNormal(q)
+  if (q.tipo === 'opciones') return (q.opciones?.length ?? 1) - 1
   if (q.tipo === 'si_no') return q.respuestaAlerta!
   return q.tipo === 'numero' ? (q.umbral ?? 5) + 2 : Math.min(10, (q.umbral ?? 6) + 1)
 }
@@ -191,7 +194,19 @@ function PanelPaciente({ p, seg }: { p: Paciente; seg: SeguimientoVersion }) {
                   {q.alarma && <TriangleAlert className="mr-1 inline size-3.5" />}
                   {q.etiqueta}
                 </span>
-                {q.tipo === 'si_no' ? (
+                {q.tipo === 'opciones' ? (
+                  <select
+                    value={Number(respuestas[q.id])}
+                    onChange={(ev) => setRespuestas({ ...respuestas, [q.id]: Number(ev.target.value) })}
+                    className={`${claseInput} !h-10 !w-44 text-sm`}
+                  >
+                    {q.opciones?.map((o, i) => (
+                      <option key={o.texto} value={i}>
+                        {o.texto}
+                      </option>
+                    ))}
+                  </select>
+                ) : q.tipo === 'si_no' ? (
                   // Sí/No responde a la etiqueta ("No toma la medicación"), no a la pregunta al paciente.
                   <select
                     value={String(respuestas[q.id] === q.respuestaAlerta)}

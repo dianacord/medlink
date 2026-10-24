@@ -1,8 +1,12 @@
-import type { Plantilla } from '../types'
+import type { Plantilla, Pregunta } from '../types'
+import { preguntasDeProm, promDe } from './proms'
 
 // Valores por defecto de la plantilla. Fuentes: AGA (calprotectina), ECCO (PCR),
 // criterios de Truelove-Witts (brote grave) e índice Mayo parcial (síntomas).
 // Pendiente de validar por un especialista de Digestivo.
+
+/** Preguntas de los PROMs indicados, con su frecuencia por defecto. */
+const activos = (...ids: string[]): Pregunta[] => ids.flatMap((id) => preguntasDeProm(promDe(id)!))
 
 export const PLANTILLA_COLITIS: Plantilla = {
   id: 'colitis-ulcerosa',
@@ -21,6 +25,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
       empeoraAl: 'subir',
       reglas: ['fuera_de_rango', 'cambio_brusco', 'tendencia'],
       sinonimos: ['calprotectina', 'calprotectina fecal', 'calprotectina en heces'],
+      frecuenciaDias: 84,
     },
     {
       id: 'pcr',
@@ -31,6 +36,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
       empeoraAl: 'subir',
       reglas: ['fuera_de_rango', 'cambio_brusco'],
       sinonimos: ['pcr', 'proteína c reactiva', 'proteina c reactiva'],
+      frecuenciaDias: 84,
     },
     {
       id: 'hemoglobina',
@@ -41,6 +47,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
       empeoraAl: 'bajar',
       reglas: ['fuera_de_rango', 'tendencia'],
       sinonimos: ['hemoglobina', 'hb', 'hgb'],
+      frecuenciaDias: 84,
     },
     {
       id: 'albumina',
@@ -51,40 +58,14 @@ export const PLANTILLA_COLITIS: Plantilla = {
       empeoraAl: 'bajar',
       reglas: ['fuera_de_rango', 'tendencia'],
       sinonimos: ['albúmina', 'albumina'],
+      frecuenciaDias: 182,
     },
   ],
   preguntas: [
-    {
-      id: 'deposiciones',
-      etiqueta: 'Deposiciones',
-      unidad: '/día',
-      texto: '¿Cuántas veces vas al baño al día (deposiciones)?',
-      ayuda: 'Piensa en un día normal de esta semana.',
-      tipo: 'numero',
-      umbral: 5,
-      cambioRelevante: 2,
-      alarma: false,
-    },
-    {
-      id: 'sangre',
-      etiqueta: 'Sangre en heces',
-      texto: '¿Has visto sangre en las heces?',
-      tipo: 'si_no',
-      respuestaAlerta: true,
-      alarma: false,
-    },
-    {
-      id: 'urgencia',
-      etiqueta: 'Urgencia',
-      texto: '¿Cuánta prisa sientes por llegar al baño?',
-      ayuda: '0 = ninguna, 10 = no me da tiempo a llegar',
-      tipo: 'escala',
-      umbral: 6,
-      cambioRelevante: 2,
-      alarma: false,
-    },
+    ...activos('pro2-uc', 'urgency-nrs'),
     {
       id: 'dolor',
+      frecuenciaDias: 14,
       etiqueta: 'Dolor abdominal',
       texto: '¿Cuánto dolor de barriga tienes?',
       ayuda: '0 = nada, 10 = el peor dolor',
@@ -95,6 +76,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'cansancio',
+      frecuenciaDias: 14,
       etiqueta: 'Cansancio',
       texto: '¿Cuánto cansancio tienes?',
       ayuda: '0 = nada, 10 = agotamiento total',
@@ -105,6 +87,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'medicacion',
+      frecuenciaDias: 14,
       etiqueta: 'No toma la medicación todos los días',
       texto: '¿Has tomado tu medicación todos los días?',
       tipo: 'si_no',
@@ -113,6 +96,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
     },
     {
       id: 'embarazo',
+      frecuenciaDias: 14,
       etiqueta: 'Embarazo o búsqueda de embarazo',
       texto: '¿Estás embarazada o buscando un embarazo?',
       tipo: 'si_no',
@@ -121,6 +105,7 @@ export const PLANTILLA_COLITIS: Plantilla = {
       peso: 3,
       condicion: { sexo: 'F', edadMin: 18, edadMax: 50 },
     },
+    ...activos('sccai', 'ibd-control-8'),
     {
       id: 'alarma_brote',
       etiqueta: 'Brote grave',

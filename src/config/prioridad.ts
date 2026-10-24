@@ -14,6 +14,8 @@ export const PESOS = {
   peticionRevision: 2,
   /** El paciente sube un PDF en el que no se detecta ningún parámetro. */
   analiticaSinDetectar: 1,
+  /** La puntuación total de un PROM validado (SCCAI, IBD-Control-8) pasa su punto de corte. */
+  promAlterado: 2,
 }
 
 /** Puntuación mínima de cada prioridad. Con 0 no se crea aviso. */
