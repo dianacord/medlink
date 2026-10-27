@@ -1,12 +1,26 @@
-# Medlink
+# MedLink
 
-Prototipo de seguimiento remoto de pacientes crónicos con **colitis ulcerosa** (Aparato Digestivo), hecho para el hackathon Innomakers 4 Health 2026.
+**Seguimiento a distancia de pacientes crónicos: el hospital revisa por necesidad, no por calendario.**
 
-El paciente responde una encuesta corta cada 14 días y sube sus analíticas. El médico recibe una bandeja de avisos ordenada por prioridad y decide: archivar, llamar o citar en consulta. Los pacientes estables no ocupan un hueco presencial.
+Prototipo hecho para el hackathon **Innomakers 4 Health 2026**, con el reto del Hospital Universitario de La Princesa. El primer caso es la **colitis ulcerosa** (Aparato Digestivo).
+
+**Demo publicada:** https://medlink-lilac.vercel.app · QR en `docs/qr-medlink.png` (y `.svg` para imprimir).
 
 > **Prototipo · datos sintéticos · no usar con pacientes reales.** No se conecta a ningún sistema del hospital. Todo se guarda en el navegador (localStorage e IndexedDB).
 
-**Demo publicada:** https://medlink-lilac.vercel.app · QR en `docs/qr-medlink.png` (y `.svg` para imprimir).
+## Para qué sirve
+
+Hoy el paciente crónico tiene cita cada X meses, esté bien o mal. En los datos del reto, solo Aparato Digestivo programa unas **24.000 revisiones al año**, y **1 de cada 5 no se realiza** porque el paciente no viene. Son unas 1.700 horas de médico en huecos perdidos. Mientras tanto, el paciente que empeora entre dos citas no tiene cómo avisar: espera o va a Urgencias.
+
+MedLink le da la vuelta:
+
+- **El paciente** responde una encuesta corta cada 14 días desde el móvil y sube sus analíticas (también en PDF). Si marca una señal de alarma, la app lo manda a Urgencias.
+- **El médico** recibe una bandeja de avisos ordenada por prioridad (alta, media o baja), con lo que ha cambiado. Decide: archivar, llamar o citar en consulta.
+- **El paciente estable no ocupa un hueco presencial**, y el que empeora entra antes.
+
+Este modelo ya se ha probado en un ensayo aleatorizado con 909 pacientes con enfermedad inflamatoria intestinal en Países Bajos: un 34 % menos de visitas y la mitad de ingresos, sin peor calidad percibida. Los números completos, el modelo de negocio y las fuentes están en [`docs/negocio/analisis.md`](docs/negocio/analisis.md).
+
+**Para quién:** servicios hospitalarios que siguen a pacientes crónicos (empezando por Digestivo), sus médicos y sus pacientes, incluidos los que necesitan letra grande o prefieren el contacto por teléfono o email.
 
 ## Arrancar
 
